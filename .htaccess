@@ -39,6 +39,7 @@ ExpiresDefault "access 1 day"
 
 ## 2015 Rooster ##
 
+redirect 301 /contact/mobile-application-support http://www.apptricity.com/apptricity-customer-support.html
 redirect 301 /contact.html http://www.apptricity.com/apptricity-contact-us.html
 redirect 301 /demo.html http://www.apptricity.com/apptricity-request-a-demonstration.html
 redirect 301 /resources/support.html http://www.apptricity.com/apptricity-customer-support.html
