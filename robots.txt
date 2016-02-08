@@ -1,0 +1,5 @@
+# http://www.robotstxt.org/robotstxt.html
+# Pages the search engine should and should not crawl
+
+User-agent: *
+Allow: /

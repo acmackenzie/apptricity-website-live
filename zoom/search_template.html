@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" id=""> <!--<![endif]-->
+
+<!-- 
+This is the search template file (search_template.html) which contains the layout
+to your search page. 
+
+Note that you can not access the search function from this page. Instead, 
+you should open or link to the search script, which is a file named "search.php", 
+"search.asp", or "search.cgi".
+-->
+
+<head>
+<meta charset="UTF-8">
+<title>Search Results Page | Apptricity</title>
+<meta name="description" content="Find more information using our search box.">
+<meta name="author" content="Marketing">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="/images/icons/favicon.ico">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet'>
+<link href="/css/styles.css" rel="stylesheet">
+<script src="/scripts/modernizr.js" async></script>
+</head>
+
+<body onload="if (document.getElementById('zoom_searchbox')) {document.getElementById('zoom_searchbox').focus();}">
+
+<div class="header-wrapper">
+<header role="banner" id="top">
+<div id="logo">
+<a href="/" title="Back to Homepage"><img src="/images/apptricity-logo-white.png" alt="Apptricity Company Logo"></a>
+</div>
+
+<div class="topnav">
+    <ul>
+        <li><a href="/contact.html" title="Get In Touch">Contact Us</a> | </li>
+        <li><a href="/demo.html" title="Request A Personalized Demo">Request A Demo</a> | </li>
+        <li><a href="/resources/support.html" title="Customer Support">Support</a> | </li>
+        <li><a href="/europe/index.html" title="Apptricity in the EMEA market">Europe</a></li>
+    </ul>
+
+<div class="search-box">
+    <form method="get" action="/zoom/search.php">
+        <input type="text" name="zoom_query" size="20">
+        <input class="button" type="submit" value="Search">
+    </form>
+</div>
+</div>
+
+<nav role="navigation">
+<ul id="menu" class="menu">
+<li class="solutions"><a href="" title="Mobile Enterprise Solutions">Solutions <span class="down-arrow">&nbsp;</span></a>
+    <div class="submenu">
+    	<div class="column">
+            <ul>
+                <li><a href="/solutions/" title="">Mobile Enterprise Solutions Overview</a></li>
+            </ul>
+    	</div>
+	
+        <div class="column">
+            <ul>
+                <li><a href="/solutions/spend-management/" title="">Spend Management Overview</a></li>
+                <li><a href="/solutions/spend-management/expense.html" title="">Expense</a></li>
+                <li><a href="/solutions/spend-management/invoice.html" title="">Invoice</a></li>
+                <li><a href="/solutions/spend-management/purchasing-requisition.html" title="">Purchasing</a></li>
+                <li><a href="/solutions/spend-management/time-and-attendance.html" title="">Time and Attendance</a></li>
+                <li><a href="/solutions/spend-management/procure-to-pay.html" title="">Procure-to-Pay</a></li>
+            </ul>
+        </div>
+	
+        <div class="column">
+            <ul>
+                <li><a href="/solutions/supply-chain-management/" title="">Supply Chain Management Overview</a></li>
+                <li><a href="/solutions/supply-chain-management/asset.html" title="">Asset</a></li>
+                <li><a href="/solutions/supply-chain-management/inventory.html" title="">Inventory</a></li>
+                <li><a href="/solutions/supply-chain-management/field.html" title="">Field Services</a></li>
+                <li><a href="/solutions/supply-chain-management/warehouse.html" title="">Warehouse</a></li>
+                <li><a href="/solutions/supply-chain-management/work-order.html" title="">Work Order</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<!-- Govt Svcs -->
+<li class="government"><a href="" title="Government Services &amp; Solutions">Government Services <span class="down-arrow">&nbsp;</span></a>
+    <div class="submenu">
+        <div class="column  government-dropdown">
+            <ul>
+                <li><a href="/government-services/" title="">Overview</a></li>
+                <li><a href="/government-services/defense-national-security.html" title="">Defense National Security</a></li>
+                <li><a href="/government-services/federal-services-solutions.html" title="">Federal Services Solutions</a></li>
+                <li><a href="/government-services/state-local-solutions.html" title="">State and Local Solutions</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<!-- Partner Programs -->
+<li class="partners"><a href="" title="Partner &amp; Alliance Program">Partner Programs <span class="down-arrow">&nbsp;</span></a>
+    <div class="submenu">
+        <div class="column  partners-dropdown">
+            <ul>
+                <li><a href="/partner-programs/">Partner &amp; Alliance Program Overview</a></li>
+                <li><a href="/partner-programs/distribution-partners.html" title="">Distribution Partners</a></li>
+                <li><a href="/partner-programs/service-providers.html" title="">Service Providers</a></li>
+            </ul>
+        </div>
+        
+        <div class="column">
+            <ul>
+                <li><a href="/partner-programs/solution-providers.html" title="">Solution Providers</a></li>
+                <li><a href="/partner-programs/system-integrators.html" title="">System Integrators</a></li> 	
+                <li><a href="/partner-programs/technology-partners.html" title="">Technology Partners</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<!-- Resource Center -->
+<li class="resources"><a href="" title="Resource Center">Resources <span class="down-arrow">&nbsp;</span></a>
+    <div class="submenu">
+        <div class="column  resources-dropdown">
+            <ul>
+                <li><a href="/resources/apptricity-university.html" title="">Apptricity University</a></li>
+                <li><a href="/resources/ebooks.html" title="">e-Books</a></li>
+                <li><a href="/resources/newsletters.html" title="">Newsletters</a></li>
+                <li><a href="/resources/webinars.html" title="">Webinars</a></li>
+                <li><a href="/resources/white-papers.html" title="">White Papers</a></li>
+            </ul>
+        </div>
+    </div>
+</li>
+
+<!-- About -->
+<li class="about"><a href="" title="About Apptricity">About <span class="down-arrow">&nbsp;</span></a>
+    <div class="submenu">
+        <div class="column  about-dropdown">
+            <ul>
+                <li><a href="/about/" title="Learn more about our company">About Apptricity</a></li>
+                <li><a href="/about/executive-team.html" title="Learn more about our leaders">Executive Team</a></li>
+                <li><a href="/about/customers.html" title="See our growing customer list">Customers</a></li>
+                <li><a href="/about/press-releases/" title="Read our latest press releases">Press Releases</a></li>
+                <li><a href="/about/events.html" title="See our on-demand and upcoming events">Events</a></li>
+            </ul>
+        </div>
+        
+        <div class="column">
+            <ul>
+                <li><a href="/about/careers/" title="See our job openings">Career Opportunities</a></li>
+                <li><a href="http://blog.apptricity.com" title="Read our latest blog posts">Blog</a></li>
+                <li><a href="/about/privacy-policy.html" title="Learn how we protect your privacy">Privacy Policy</a></li>
+                <li><a href="/contact.html" title="Get in Touch">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>   
+</li>
+</ul>
+</nav>
+</header>
+</div>
+
+<div class="container">
+<!-- MAIN CONTENT -->
+<main class="single-column" role="main">
+
+<!--ZOOMSEARCH-->
+    
+</main>
+</div>
+    
+<!-- FOOTER SECTION-->
+<div class="clear">&nbsp;</div>
+
+<footer class="inner-footer-wrapper" role="contentinfo">
+<div class="inner-footer">
+<a href="#top" class="top" title="Back to Top"></a>
+
+<section class="solutions">
+<h5>Solutions</h5>
+<ul>
+    <li><a href="/solutions/">Overview</a></li>
+    <li><a href="/solutions/spend-management/">Spend Management</a></li>
+    <li><a href="/solutions/supply-chain-management/">Supply Chain Management</a></li>
+</ul>
+</section>
+
+<section class="government">
+<h5>Government Services</h5>
+<ul>
+    <li><a href="/government-services/">Overview</a></li>
+    <li><a href="/government-services/defense-national-security.html">Defense National Security</a></li>
+    <li><a href="/government-services/federal-services-solutions.html">Federal Services Solutions</a></li>
+    <li><a href="/government-services/state-local-solutions.html">State and Local Solutions</a></li>
+</ul>
+</section>
+
+<section class="resources">
+<h5>Resources</h5>
+<ul>
+    <li><a href="/resources/white-papers.html">White Papers</a></li>
+    <li><a href="/resources/ebooks.html">e-Books</a></li>
+    <li><a href="/resources/newsletters.html">Newsletters</a></li>
+    <li><a href="/resources/apptricity-university.html">Apptricity University</a></li>
+</ul>
+</section>
+
+<section class="about">
+<h5>About</h5>
+<ul>
+    <li><a href="/about/">About Overview</a></li>
+    <li><a href="/about/executive-team.html">Executive Team</a></li>
+    <li><a href="/about/customers.html">Customers</a></li>
+    <li><a href="/partner-programs/">Partner Programs</a></li>
+    <li><a href="http://dev.apptricity.com/about-us/press-releases/">Press Releases</a></li>
+    <li><a href="/about/events.html">Events</a></li>
+    <li><a href="http://dev.apptricity.com/blog/">Blog</a></li>
+    <li><a href="/about/careers/">Careers</a></li>
+    <li><a href="/contact.html">Contact Us</a></li>
+</ul>
+</section>
+</div>
+</footer>
+
+<footer class="outer-footer-wrapper" role="contentinfo">
+<div class="outer-footer">
+<div class="copyright">
+<p>&copy; 2015 Apptricity Corporation</p>
+<ul class="sitemap">
+    <li><a href="/about/privacy-policy.html" title="Privacy Policy">Privacy Policy</a> |</li>
+    <li><a href="/resources/support.html" title="Customer Support">Support</a> |</li>
+    <li><a href="/sitemap.html" title="Sitemap">Sitemap</a></li>
+</ul>
+</div>
+
+<div class="footer-social-media">
+<ul>
+    <li class="socialize">Socialize with Us »</li>
+    <li><a class="facebook" href="https://www.facebook.com/Apptricity" title="Follow us on Facebook" target="_blank"></a></li>
+    <li><a class="twitter" href="https://twitter.com/apptricity" title="Follow us on Twitter" target="_blank"></a></li>
+    <li><a class="youtube" href="http://www.youtube.com/user/Apptricity" title="Follow us on YouTube" target="_blank"></a></li>
+    <li><a class="linkedin" href="http://www.linkedin.com/company/apptricity" title="Follow us on Linkedin" target="_blank"></a></li>
+    <li><a class="google" href="https://plus.google.com/103487855639146240756/posts" title="Follow us on Google" target="_blank"></a></li>
+</ul>
+</div>
+</div>
+</footer>
+    	
+</body>
+</html>

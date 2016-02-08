@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" id="partners"> <!--<![endif]-->
+
+<head>
+<meta charset="UTF-8">
+<title>Partner Program Signup | Apptricity</title>
+<meta name="description" content="Sign-up for our partner &amp; alliances channel program">
+<meta name="author" content="Marketing">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="/images/icons/favicon.ico">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet'>
+<link href="/css/styles.css" rel="stylesheet">
+<script src="/scripts/modernizr.js" async></script>
+</head>
+
+<body id="signup">
+<!--#include virtual="/includes/header.htm"-->
+
+<div class="breadcrumb-wrapper">
+<div class="breadcrumb">
+<ul>
+<li><a href="/" title="Back to Homepage">Home</a> » </li>
+<li><a href="/partner-programs/" title="Partners Program">Partners Program</a> » </li>
+<li>Partner Program Signup</li>
+</ul>
+</div>
+</div>
+
+<div class="container">
+<!-- MAIN CONTENT -->
+<main class="single-column" role="main">
+<h1>Partner &amp; Alliances Channel Program Signup</h1>
+
+<p>Thank you for your interest in partnering with Apptricity, we look forward to you being an integral part of our continued success.</p>
+<p>This application is an important step towards joining the Apptricity Global Partner Program, and forms the basis of us understanding your organisation and people so we are able to reach out and support you accordingly.</p>
+
+<!-- FORM -->
+<form action="/scripts/forms/partner.php" method="post" enctype="multipart/form-data">
+<fieldset>
+<legend>Tell us about your organization</legend>
+<dl>
+<dt><label for="company">Company Name</label></dt>
+<dd><input name="company" id="company" placeholder="Enter Company Name" type="text" required></dd>
+
+<dt><label for="address">Address</label></dt>
+<dd><input name="address" id="address" placeholder="Enter your full address" type="text" required></dd>
+
+<dt><label for="country">Country</label></dt>
+<dd><input name="country" id="country" placeholder="Enter country name that the relationship is to be managed from" type="text" required></dd>
+
+<dt><label for="website">Website</label></dt>
+<dd><input name="website" id="website" placeholder="www.yourname.com" type="url" required></dd>
+
+<dt><label for="organization">Size of Organization</label></dt>
+<dd><input name="organization" id="organization" placeholder="Enter the size of your organization" type="text"></dd>
+
+<dt><label for="revenue">Annual Revenue</label></dt>
+<dd><input name="revenue" id="revenue" placeholder="Enter the annual revenue for last year" type="text"></dd>
+</dl>
+</fieldset>
+
+<fieldset>
+<legend>Tell us about you</legend>
+<dl>
+<dt><label for="name">Your Name</label></dt>
+<dd><input name="name" id="name" placeholder="Enter Your Full Name" type="text" required></dd>
+
+<dt><label for="email">Your Email</label></dt>
+<dd><input name="email" id="email" placeholder="i.e. yourname@gmail.com" type="email" required></dd>
+
+<dt><label for="landline">Landline Phone</label></dt>
+<dd><input name="landline" id="landline" placeholder="Enter your landline phone number" type="tel"></dd>
+
+<dt><label for="mobile">Mobile Phone</label></dt>
+<dd><input name="mobile" id="mobile" placeholder="Enter your mobile phone number" type="tel" required></dd>
+
+<dt><label for="contact">Are you the main partnership contact?</label></dt>
+<dd class="checkbox">
+<input name="contact[]" id="contact1" type="radio" value="Yes"> <label>Yes</label> 
+<input name="contact[]" id="contact2" type="radio" value="No"> <label>No</label>
+</dd>
+
+<dt><label for="main_contact">If no, who is the main contact?</label></dt>
+<dd><input name="main_contact" id="main_contact" placeholder="Enter the main contact person" type="text"></dd>
+</dl>
+</fieldset>
+
+<fieldset>
+<legend>Final Information</legend>
+<dl>
+<dt><label for="interest">What best explains your interest in applying?</label></dt>
+<dd><textarea name="interest" id="interest"></textarea></dd>
+
+<dt><label for="verticals">What are the TOP 3 verticals your organization addresses?</label></dt>
+<dd><textarea name="verticals" id="verticals"></textarea></dd>
+
+<dt><label for="geographical">Do you have a geographical focus?</label></dt>
+<dd class="checkbox">
+<input name="geographical[]" id="geographical1" type="radio" value="Yes"> <label>Yes</label> 
+<input name="geographical[]" id="geographical2" type="radio" value="No"> <label>No</label>
+</dd>
+
+<dt><label for="where">If so, where?</label></dt>
+<dd class="checkbox">
+<input name="where[]" id="where1" type="checkbox" value="North US/Canada"> <label>North US/Canada</label> 
+<input name="where[]" id="where2" type="checkbox" value="LATAM"> <label>LATAM</label>
+<input name="where[]" id="where3" type="checkbox" value="EMEA"> <label>EMEA</label>
+<input name="where[]" id="where4" type="checkbox" value="APAC"> <label>APAC (includes Russia)</label>
+</dd>
+
+<dt><label for="strategic">Does your organization have strategic industry focus? <br>If so, which areas are they?</label></dt>
+<dd><textarea name="strategic"></textarea></dd>
+
+<dt><label for="message">Anything else you'd like to add?</label></dt>
+<dd><textarea name="message"></textarea></dd>
+</dl>
+</fieldset>
+
+<p><input class="submit  button" type="submit" value="Submit"></p>
+</form>
+</main>
+</div>
+
+<!-- FOOTER SECTION-->
+<!--#include virtual="/includes/footer.htm"-->
+
+</body>
+</html>

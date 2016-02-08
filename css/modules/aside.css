@@ -1,0 +1,274 @@
+/*
+Frontend Developer: Mario S. Cisneros, P: 214.596.0601 Ext. 107
+Author URI: http://www.apptricity.com
+CSS: Global Aside/Sidebar Styles
+Project: Company Website
+Passed W3C: 5.1.2015
+Last Modified Date: 10.5.2015
+-------------------------------------------------------------- */
+
+aside h3,
+aside h4 a {
+    color: #00a7e1;
+	text-align: left;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+aside h3 {
+	font-size: 1.5em;
+	margin-bottom: .5em;
+	padding-top: .25em;
+}
+
+aside h4 {
+    font-size: 1.2em;
+	margin: 1.5em 0 .5em;
+	padding-top: .25em;
+}
+
+aside p {
+    font: 1em/1.5 "times new roman","trebuchet ms";
+    margin: 2em 0 0;
+    padding: 0;
+    text-align: left;
+}
+
+aside p a {color: #3cf;}
+
+aside dl {
+    color: #000;
+    margin: 1em 0 2em 0;
+    padding: 0 0 0 .625em;
+}
+
+aside dt {
+    font: bold 1.1em "trebuchet ms",sans-serif;
+    margin: .5em 0 0;
+    padding: .5em 0;
+    text-align: left;
+}
+
+aside dd {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+aside dl dd address {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+aside dd.margin {
+    margin: .5em 0 0 0;
+}
+
+aside ul {
+    margin: 1.5em 0 0 3%;
+    padding: 0;
+}
+
+aside ul li {
+    list-style: disc;
+    list-style-position: inside;
+    padding-bottom: .5em;
+    text-align: left;
+}
+
+aside .margin {
+    margin-top: 2em;
+}
+
+
+
+
+
+/* LEFT SIDE NAVIGATION
+---------------------------------------------------------------------------------------- */
+
+.sidenav {
+    float: right;
+    margin-top: 2.75em;
+	margin-bottom: 5em;
+    padding: 0;
+    width: 26.087%;
+}
+
+.sidenav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav ul li {
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+    list-style: none;
+    padding-bottom: 0;
+}
+
+.sidenav li.bottom-border {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.sidenav ul li a:link, .sidenav ul li a:active, .sidenav ul li a:visited {
+    background: #fff url("/images/icons/nav/nav-blue-pipe.gif") no-repeat 2% 48%;
+	color: #000;
+    display: block;
+    padding: .75em 0 .75em 1em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.sidenav ul li a:hover {
+    background: #005f9b url("/images/icons/nav/nav-white-pipe-onhover.gif") no-repeat 2% 48%;
+    color: #FFF;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+/* Controls the styles on the nested sub list (e.g. /about/careers.html)
+------------------------------------------------------------------------ */
+.sidenav ul ul li {
+	list-style-type: none;
+	list-style-position: inside;
+}
+
+.sidenav ul li li a:link, .sidenav ul li li a:active, .sidenav ul li li a:visited {
+	background: transparent url("/images/icons/nav/nav-blue-arrow-onhover.png") no-repeat 7% 48%;
+	color: #00a7e1;
+	font-size: .85em; 
+	padding: .75em 0 .75em 2em;
+}
+
+.sidenav ul li li a:hover {
+	background: #fff url("/images/icons/nav/nav-orange-arrow.png") no-repeat 7% 48%;
+	color: #ff7f3f; 
+	font-size: .85em;
+	padding: .5em 0 .5em 2em;
+}
+
+
+/* Expandable Menu: Hides Items
+------------------------------- */
+.collapsible li ul {
+	list-style: none; 
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+/* LEFT SIDEBAR ACTIVE LINKS: The IDs are placed inside the <body> tag 
+   and the classes are placed inside the <li> tags in the appropriate include file
+---------------------------------------------------------------------------------------- */
+
+/* Wiki Section 
+------------------ */
+
+#wiki-overview .wiki-overview a,
+#css-guidelines .css-guidelines a,
+#html-guidelines .html-guidelines a,
+#js-guidelines .js-guidelines a,
+#frontend-guidelines .frontend-guidelines a,
+#intranet-best-practices .intranet-best-practices a,
+#pre-launch-checklist .pre-launch-checklist a,
+#usability-checklist .usability-checklist a,
+#snippets .snippets a,
+#seo .seo a {
+    background: #005f98 url("/images/icons/nav/nav-white-pipe.gif") no-repeat 2% 48%;
+    color: #fff;
+}
+
+
+/* About Us: Careers Section - Submenu Styled Differently 
+----------------------------------------------------------- */
+
+#account-executive .account-executive a,
+#administrative-assistant .administrative-assistant a,
+#android-developer .android-developer a,
+#controller .controller a,
+#dba .dba a,
+#database-report-writer .database-report-writer a,
+#director-of-infrastructure .director-of-infrastructure a,
+#graphic-design-internship .graphic-design-internship a,
+#human-resources-manager .human-resources-manager a,
+#implementation-technician .implementation-technician a,
+#inside-sales-channel-representative .inside-sales-channel-representative a,
+#internal-pc-technician .internal-pc-technician a,
+#ios-mobile-developer .ios-mobile-developer a,
+#javaj2ee-mid-level-developer .javaj2ee-mid-level-developer a,
+#junior-ui-designer .junior-ui-designer a,
+#Lead-Generation-and-Marketing-Event-Coordinator .Lead-Generation-and-Marketing-Event-Coordinator a,
+#lead-writer .lead-writer a,
+#linux-system-administrator .linux-system-administrator a,
+#mid-level-java-developer .mid-level-java-developer a,
+#presales-system-engineer .presales-system-engineer a,
+#project-manager-applications .project-manager-applications a,
+#project-manager-government-services .project-manager-government-services a,
+#quality-assurance-engineer .quality-assurance-engineer a,
+#receptionist .receptionist a,
+#rfp-writer .rfp-writer a,
+#scrum-master .scrum-master a,
+#sales-representative .sales-representative a,
+#senior-java-developer .senior-java-developer a,
+#senior-level-java-developer .senior-level-java-developer a,
+#senior-systems-engineer .senior-systems-engineer a,
+#software-architect .software-architect a,
+#software-trainer .software-trainer a,
+#solutions-engineer .solutions-engineer a,
+#web-designer-developer .web-designer-developer a,
+#windows-mobile-developer .windows-mobile-developer a, 
+#supply-chain-product-manager .supply-chain-product-manager a {
+    background: #ff6319 url("/images/icons/nav/nav-white-arrow.png") no-repeat 2% 48%;
+    color: #fff;
+}
+
+/* Controls the color of the bullet
+-------------------------------------- */
+
+#overview .overview,
+#expense .expense, 
+#invoice .invoice,
+#purchasing .purchasing,
+#time .time,
+#procure .procure {
+    background-color: #000;
+    color: #3cf;
+}
+
+
+
+
+
+/* RIGHT SIDEBAR: CALLS-TO-ACTION
+---------------------------------------------------------------------------------------- */
+
+.sidebar {
+    float: right;
+    margin: 3em 0 0;
+    padding: 0;
+    width: 26.087%;
+}
+
+.sidebar span {
+    display: block;
+    margin: 0 0 2.5em;
+}
+
+.cta-pdf-rightside {
+    float: right;
+    margin: 3em 0 0;
+    padding: 0;
+    width: 26.087%;
+}
+
+
+
+

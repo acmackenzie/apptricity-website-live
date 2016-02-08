@@ -1,0 +1,99 @@
+/*
+Frontend Developer: Mario S. Cisneros, P: 214.596.0601 Ext. 107
+Author URI: http://www.apptricity.com
+CSS: Print Styles
+Project: Company Website
+Last Modified Date: 5.6.2015
+--------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* The media query tells the browser that all the styles contained in this block are only 
+to be applied under a special circumstance, in this case a user printing the page.
+--------------------------------------------------------------------------------------------------------------------------- */
+@media print {
+
+
+/* The universal selector (*) is applies some blanket style changes to the page. The result here is a 
+drastic simplification of the visual styles on the page. Any background image or color is turned off, 
+the text color is turned to black, text-shadows are disabled, etc. 
+--------------------------------------------------------------------------------------------------------------------------- */
+* {
+	background: transparent !important; 
+ 	color: black !important; /* Black prints faster: sanbeiji.com/archives/953 */
+ 	text-shadow: none !important;
+} 
+
+
+/* HIDDEN ELEMENTS
+-------------------------------------------------------------- */
+header, .breadcrumb, aside, .sidenav, .sidebar, img, form, iframe, footer {display: none !important;} 
+  
+
+  
+  
+
+/*PRINT FRIENDLY LINKS
+--------------------------------------------------------------------------------------------------------------------------- */
+a, a:visited 
+{color: #444 !important; 
+ text-decoration: underline;}
+
+a[href]:after 
+{content: " (" attr(href) ")";}
+
+abbr[title]:after 
+{content: " (" attr(title) ")";}
+
+.ir a:after, 
+a[href^="javascript:"]:after, 
+a[href^="#"]:after 
+{content: "";}  
+  
+pre, blockquote 
+{border: 1px solid #999; 
+ page-break-inside: avoid;}
+
+thead { display: table-header-group; }
+
+ 
+  
+
+
+/*IMAGE SIZING:
+
+Setting the image maximum width to 100% ensures that you don't have any bleeding images.
+--------------------------------------------------------------------------------------------------------------------------- */
+img {max-width: 100% !important; }
+tr, img {page-break-inside: avoid;}
+
+
+
+
+
+/*PAGE MARGINS and OPTIMIZING PAGE BREAKS:
+---------------------------------------------------------------------------------------------------------------------------
+
+1. The {page-break-after: avoid;} forbids a page break directly after headers and paragraphs where possible.
+2. The {orphans: 3; widows: 3;} ensures that no less than three lines can be orphaned or widowed on a page.
+
+When you have the first line of a paragraph stranded alone at the bottom of a page, that's an orphan. 
+Similarly, the last line of a paragraph may be carried over by itself to the next page, this is a widow. 
+--------------------------------------------------------------------------------------------------------------------------- */
+
+p, h2, h3, table {page-break-after: avoid;}
+
+p, h2, h3 
+{orphans: 3; 
+ widows: 3;}
+
+ 
+.content, .middle-column, .three-column-layout {
+	margin-left: 0 !important;
+	width: 98% !important;
+}
+
+.content, .middle-column, .address {float: none !important;}
+
+
+
+}

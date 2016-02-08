@@ -1,0 +1,26 @@
+<form  action="/scripts/forms/careers.php" method="post" enctype="multipart/form-data">
+	<fieldset>
+		<legend>Complete the required fields and submit your application</legend>
+            <dl>
+            <dt><label for="name">Name</label></dt>
+            <dd><input id="name" name="name" placeholder="Enter your full name" type="text" required></dd>
+            
+            <dt><label for="position">Position</label></dt>
+            <dd><input id="position" name="position" placeholder="Enter the position your applying for" type="text" required></dd>
+            
+            <dt><label for="email">Email</label></dt>
+            <dd><input id="email" name="email" placeholder="i.e. yourname@gmail.com" type="email" required></dd>
+            
+            <dt><label for="phone">Phone</label></dt>
+            <dd><input id="phone" name="phone" placeholder="999-999-9999" type="tel" required></dd>
+            
+            <dt><label for="message">Message</label></dt>
+			<dd><textarea id="message" name="message"></textarea></dd>
+            
+            <dt><label for="resume">Upload Resume</label></dt>
+            <dd><input name="resume" type="file"></dd>
+            </dl>
+	</fieldset>
+
+<p><input class="submit  button" type="submit" value="Submit"></p>
+</form>

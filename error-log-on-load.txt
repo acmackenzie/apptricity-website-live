@@ -1,0 +1,362 @@
+﻿Started: 11/21/2015 9:59 AM
+
+Path was: /var/www/html/rooster.apptricity.com/.sass-cache
+/var/www/html/rooster.apptricity.com/.sass-cache - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/.sass-cache.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/ajax
+/var/www/html/rooster.apptricity.com/ajax - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/ajax.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/bootstrap
+/var/www/html/rooster.apptricity.com/bootstrap - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/bootstrap.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/css
+/var/www/html/rooster.apptricity.com/css - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/css.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/cubeportfolio
+/var/www/html/rooster.apptricity.com/cubeportfolio - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/cubeportfolio.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/font-awesome
+/var/www/html/rooster.apptricity.com/font-awesome - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/font-awesome.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/img
+/var/www/html/rooster.apptricity.com/img - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/img.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/js
+/var/www/html/rooster.apptricity.com/js - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/js.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/mail
+/var/www/html/rooster.apptricity.com/mail - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/mail.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/mailchimp
+/var/www/html/rooster.apptricity.com/mailchimp - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/mailchimp.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/pe-icons
+/var/www/html/rooster.apptricity.com/pe-icons - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/pe-icons.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/rev-images
+/var/www/html/rooster.apptricity.com/rev-images - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/rev-images.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/revolution
+/var/www/html/rooster.apptricity.com/revolution - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/revolution.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/rs-plugin
+/var/www/html/rooster.apptricity.com/rs-plugin - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/rs-plugin.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/scss
+/var/www/html/rooster.apptricity.com/scss - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/scss.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/sky-form
+/var/www/html/rooster.apptricity.com/sky-form - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/sky-form.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/themify-icons
+/var/www/html/rooster.apptricity.com/themify-icons - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/themify-icons.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/twit-api
+/var/www/html/rooster.apptricity.com/twit-api - error occurred - Unable to create server folder /var/www/html/rooster.apptricity.com/twit-api.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/about.html
+about.html - error occurred - An FTP error occurred - cannot put about.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/alerts.html
+alerts.html - error occurred - An FTP error occurred - cannot put alerts.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/blank.html
+blank.html - error occurred - An FTP error occurred - cannot put blank.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/blog-2col.html
+blog-2col.html - error occurred - An FTP error occurred - cannot put blog-2col.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/blog-full.html
+blog-full.html - error occurred - An FTP error occurred - cannot put blog-full.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/blog-leftimg.html
+blog-leftimg.html - error occurred - An FTP error occurred - cannot put blog-leftimg.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/blog-masonary.html
+blog-masonary.html - error occurred - An FTP error occurred - cannot put blog-masonary.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/blog-sidebar.html
+blog-sidebar.html - error occurred - An FTP error occurred - cannot put blog-sidebar.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/blog-single.html
+blog-single.html - error occurred - An FTP error occurred - cannot put blog-single.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/blog-timeline.html
+blog-timeline.html - error occurred - An FTP error occurred - cannot put blog-timeline.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/both-left-sidebar.html
+both-left-sidebar.html - error occurred - An FTP error occurred - cannot put both-left-sidebar.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/both-right-sidebar.html
+both-right-sidebar.html - error occurred - An FTP error occurred - cannot put both-right-sidebar.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/both-sidebar.html
+both-sidebar.html - error occurred - An FTP error occurred - cannot put both-sidebar.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/buttons.html
+buttons.html - error occurred - An FTP error occurred - cannot put buttons.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/career.html
+career.html - error occurred - An FTP error occurred - cannot put career.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/carousel-shortcodes.html
+carousel-shortcodes.html - error occurred - An FTP error occurred - cannot put carousel-shortcodes.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/coming-soon-1.html
+coming-soon-1.html - error occurred - An FTP error occurred - cannot put coming-soon-1.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/coming-soon-2.html
+coming-soon-2.html - error occurred - An FTP error occurred - cannot put coming-soon-2.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/coming-soon-3.html
+coming-soon-3.html - error occurred - An FTP error occurred - cannot put coming-soon-3.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/config.rb
+config.rb - error occurred - An FTP error occurred - cannot put config.rb.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/contact-advanced.php
+contact-advanced.php - error occurred - An FTP error occurred - cannot put contact-advanced.php.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/contact-flat.php
+contact-flat.php - error occurred - An FTP error occurred - cannot put contact-flat.php.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/contact-option.php
+contact-option.php - error occurred - An FTP error occurred - cannot put contact-option.php.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/contact.html
+contact.html - error occurred - An FTP error occurred - cannot put contact.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/cta.html
+cta.html - error occurred - An FTP error occurred - cannot put cta.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/cube-fullwidth.html
+cube-fullwidth.html - error occurred - An FTP error occurred - cannot put cube-fullwidth.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/cube-masonry.html
+cube-masonry.html - error occurred - An FTP error occurred - cannot put cube-masonry.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/email-template.html
+email-template.html - error occurred - An FTP error occurred - cannot put email-template.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/error.html
+error.html - error occurred - An FTP error occurred - cannot put error.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/faq.html
+faq.html - error occurred - An FTP error occurred - cannot put faq.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/font-awesome.html
+font-awesome.html - error occurred - An FTP error occurred - cannot put font-awesome.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/footer-2.html
+footer-2.html - error occurred - An FTP error occurred - cannot put footer-2.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/footer-3.html
+footer-3.html - error occurred - An FTP error occurred - cannot put footer-3.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/footer-light-1.html
+footer-light-1.html - error occurred - An FTP error occurred - cannot put footer-light-1.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/footer-light-2.html
+footer-light-2.html - error occurred - An FTP error occurred - cannot put footer-light-2.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/footer-light-3.html
+footer-light-3.html - error occurred - An FTP error occurred - cannot put footer-light-3.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/full-width.html
+full-width.html - error occurred - An FTP error occurred - cannot put full-width.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/gallery.html
+gallery.html - error occurred - An FTP error occurred - cannot put gallery.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/grid-portfolio-2-no-text.html
+grid-portfolio-2-no-text.html - error occurred - An FTP error occurred - cannot put grid-portfolio-2-no-text.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/grid-portfolio-3-no-text.html
+grid-portfolio-3-no-text.html - error occurred - An FTP error occurred - cannot put grid-portfolio-3-no-text.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/grid-portfolio-4-no-text.html
+grid-portfolio-4-no-text.html - error occurred - An FTP error occurred - cannot put grid-portfolio-4-no-text.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/grid-system.html
+grid-system.html - error occurred - An FTP error occurred - cannot put grid-system.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/header-center-logo.html
+header-center-logo.html - error occurred - An FTP error occurred - cannot put header-center-logo.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/header-dark.html
+header-dark.html - error occurred - An FTP error occurred - cannot put header-dark.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/header-side-panel.html
+header-side-panel.html - error occurred - An FTP error occurred - cannot put header-side-panel.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/header-transparent.html
+header-transparent.html - error occurred - An FTP error occurred - cannot put header-transparent.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/home-boxed.html
+home-boxed.html - error occurred - An FTP error occurred - cannot put home-boxed.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/home-carousel.html
+home-carousel.html - error occurred - An FTP error occurred - cannot put home-carousel.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/home-construction.html
+home-construction.html - error occurred - An FTP error occurred - cannot put home-construction.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/home-events.html
+home-events.html - error occurred - An FTP error occurred - cannot put home-events.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/home-flexslider.html
+home-flexslider.html - error occurred - An FTP error occurred - cannot put home-flexslider.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/home-parallax.html
+home-parallax.html - error occurred - An FTP error occurred - cannot put home-parallax.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/home-portfolio.html
+home-portfolio.html - error occurred - An FTP error occurred - cannot put home-portfolio.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/home-revolution-boxed.html
+home-revolution-boxed.html - error occurred - An FTP error occurred - cannot put home-revolution-boxed.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/home-revolution-fullscreen.html
+home-revolution-fullscreen.html - error occurred - An FTP error occurred - cannot put home-revolution-fullscreen.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/home-video.html
+home-video.html - error occurred - An FTP error occurred - cannot put home-video.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/index.html
+index.html - error occurred - An FTP error occurred - cannot put index.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/invoice.html
+invoice.html - error occurred - An FTP error occurred - cannot put invoice.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/juicy-portfolio.html
+juicy-portfolio.html - error occurred - An FTP error occurred - cannot put juicy-portfolio.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/ken-burns.html
+ken-burns.html - error occurred - An FTP error occurred - cannot put ken-burns.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/left-sidebar.html
+left-sidebar.html - error occurred - An FTP error occurred - cannot put left-sidebar.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/login-ragister-classic.html
+login-ragister-classic.html - error occurred - An FTP error occurred - cannot put login-ragister-classic.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/login-ragister.html
+login-ragister.html - error occurred - An FTP error occurred - cannot put login-ragister.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/maintenance-page.html
+maintenance-page.html - error occurred - An FTP error occurred - cannot put maintenance-page.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/maps.html
+maps.html - error occurred - An FTP error occurred - cannot put maps.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/masonry-portfolio-3.html
+masonry-portfolio-3.html - error occurred - An FTP error occurred - cannot put masonry-portfolio-3.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/masonry-portfolio-4.html
+masonry-portfolio-4.html - error occurred - An FTP error occurred - cannot put masonry-portfolio-4.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/masonry-portfolio-full.html
+masonry-portfolio-full.html - error occurred - An FTP error occurred - cannot put masonry-portfolio-full.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/me.html
+me.html - error occurred - An FTP error occurred - cannot put me.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/other-elements.html
+other-elements.html - error occurred - An FTP error occurred - cannot put other-elements.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/pe-icons.html
+pe-icons.html - error occurred - An FTP error occurred - cannot put pe-icons.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/portfolio-2.html
+portfolio-2.html - error occurred - An FTP error occurred - cannot put portfolio-2.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/portfolio-3.html
+portfolio-3.html - error occurred - An FTP error occurred - cannot put portfolio-3.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/portfolio-4.html
+portfolio-4.html - error occurred - An FTP error occurred - cannot put portfolio-4.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/portfolio-full-width-2.html
+portfolio-full-width-2.html - error occurred - An FTP error occurred - cannot put portfolio-full-width-2.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/portfolio-full-width-3.html
+portfolio-full-width-3.html - error occurred - An FTP error occurred - cannot put portfolio-full-width-3.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/portfolio-full-width-4.html
+portfolio-full-width-4.html - error occurred - An FTP error occurred - cannot put portfolio-full-width-4.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/portfolio-full-width-5.html
+portfolio-full-width-5.html - error occurred - An FTP error occurred - cannot put portfolio-full-width-5.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/portfolio-no-space-bx-2.html
+portfolio-no-space-bx-2.html - error occurred - An FTP error occurred - cannot put portfolio-no-space-bx-2.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/portfolio-no-space-bx-3.html
+portfolio-no-space-bx-3.html - error occurred - An FTP error occurred - cannot put portfolio-no-space-bx-3.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/portfolio-no-space-bx-4.html
+portfolio-no-space-bx-4.html - error occurred - An FTP error occurred - cannot put portfolio-no-space-bx-4.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/portfolio-single-2.html
+portfolio-single-2.html - error occurred - An FTP error occurred - cannot put portfolio-single-2.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/portfolio-single.html
+portfolio-single.html - error occurred - An FTP error occurred - cannot put portfolio-single.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/pricing-tables.html
+pricing-tables.html - error occurred - An FTP error occurred - cannot put pricing-tables.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/pricing.html
+pricing.html - error occurred - An FTP error occurred - cannot put pricing.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/process.html
+process.html - error occurred - An FTP error occurred - cannot put process.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/r5-classic.html
+r5-classic.html - error occurred - An FTP error occurred - cannot put r5-classic.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/r5-gym.html
+r5-gym.html - error occurred - An FTP error occurred - cannot put r5-gym.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/robots.txt
+robots.txt - error occurred - An FTP error occurred - cannot put robots.txt.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/search-results.html
+search-results.html - error occurred - An FTP error occurred - cannot put search-results.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/services.html
+services.html - error occurred - An FTP error occurred - cannot put services.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/side-nav.html
+side-nav.html - error occurred - An FTP error occurred - cannot put side-nav.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/site-map.html
+site-map.html - error occurred - An FTP error occurred - cannot put site-map.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/social-buttons.html
+social-buttons.html - error occurred - An FTP error occurred - cannot put social-buttons.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/tables.html
+tables.html - error occurred - An FTP error occurred - cannot put tables.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/tabs-accordian.html
+tabs-accordian.html - error occurred - An FTP error occurred - cannot put tabs-accordian.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/team.html
+team.html - error occurred - An FTP error occurred - cannot put team.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/testimonials.html
+testimonials.html - error occurred - An FTP error occurred - cannot put testimonials.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/typography.html
+typography.html - error occurred - An FTP error occurred - cannot put typography.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+Path was: /var/www/html/rooster.apptricity.com/videos.html
+videos.html - error occurred - An FTP error occurred - cannot put videos.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+
+File activity incomplete. 118 file(s) or folder(s) were not completed.
+
+Files with errors: 118
+/var/www/html/rooster.apptricity.com/.sass-cache
+/var/www/html/rooster.apptricity.com/ajax
+/var/www/html/rooster.apptricity.com/bootstrap
+/var/www/html/rooster.apptricity.com/css
+/var/www/html/rooster.apptricity.com/cubeportfolio
+/var/www/html/rooster.apptricity.com/font-awesome
+/var/www/html/rooster.apptricity.com/img
+/var/www/html/rooster.apptricity.com/js
+/var/www/html/rooster.apptricity.com/mail
+/var/www/html/rooster.apptricity.com/mailchimp
+/var/www/html/rooster.apptricity.com/pe-icons
+/var/www/html/rooster.apptricity.com/rev-images
+/var/www/html/rooster.apptricity.com/revolution
+/var/www/html/rooster.apptricity.com/rs-plugin
+/var/www/html/rooster.apptricity.com/scss
+/var/www/html/rooster.apptricity.com/sky-form
+/var/www/html/rooster.apptricity.com/themify-icons
+/var/www/html/rooster.apptricity.com/twit-api
+about.html
+alerts.html
+blank.html
+blog-2col.html
+blog-full.html
+blog-leftimg.html
+blog-masonary.html
+blog-sidebar.html
+blog-single.html
+blog-timeline.html
+both-left-sidebar.html
+both-right-sidebar.html
+both-sidebar.html
+buttons.html
+career.html
+carousel-shortcodes.html
+coming-soon-1.html
+coming-soon-2.html
+coming-soon-3.html
+config.rb
+contact-advanced.php
+contact-flat.php
+contact-option.php
+contact.html
+cta.html
+cube-fullwidth.html
+cube-masonry.html
+email-template.html
+error.html
+faq.html
+font-awesome.html
+footer-2.html
+footer-3.html
+footer-light-1.html
+footer-light-2.html
+footer-light-3.html
+full-width.html
+gallery.html
+grid-portfolio-2-no-text.html
+grid-portfolio-3-no-text.html
+grid-portfolio-4-no-text.html
+grid-system.html
+header-center-logo.html
+header-dark.html
+header-side-panel.html
+header-transparent.html
+home-boxed.html
+home-carousel.html
+home-construction.html
+home-events.html
+home-flexslider.html
+home-parallax.html
+home-portfolio.html
+home-revolution-boxed.html
+home-revolution-fullscreen.html
+home-video.html
+index.html
+invoice.html
+juicy-portfolio.html
+ken-burns.html
+left-sidebar.html
+login-ragister-classic.html
+login-ragister.html
+maintenance-page.html
+maps.html
+masonry-portfolio-3.html
+masonry-portfolio-4.html
+masonry-portfolio-full.html
+me.html
+other-elements.html
+pe-icons.html
+portfolio-2.html
+portfolio-3.html
+portfolio-4.html
+portfolio-full-width-2.html
+portfolio-full-width-3.html
+portfolio-full-width-4.html
+portfolio-full-width-5.html
+portfolio-no-space-bx-2.html
+portfolio-no-space-bx-3.html
+portfolio-no-space-bx-4.html
+portfolio-single-2.html
+portfolio-single.html
+pricing-tables.html
+pricing.html
+process.html
+r5-classic.html
+r5-gym.html
+robots.txt
+search-results.html
+services.html
+side-nav.html
+site-map.html
+social-buttons.html
+tables.html
+tabs-accordian.html
+team.html
+testimonials.html
+typography.html
+videos.html
+
+Finished: 11/21/2015 9:59 AM

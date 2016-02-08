@@ -1,0 +1,175 @@
+/*
+Frontend Developer: Mario S. Cisneros, P: 214.596.0601 Ext. 107
+Author URI: http://www.apptricity.com
+CSS: Form Styles
+Project: Company Website
+Passed W3C: 0.0.2015
+Last Modified Date: 9.17.2015
+-------------------------------------------------------------- */
+
+form {
+	margin: 3em 0 0;
+	padding: 0;
+	width: 100%;
+}  
+
+fieldset {
+	border: 1px solid #999;
+ 	/*margin-bottom: 4em;*/
+ 	padding: 0 1.5% 2em;
+}
+
+legend {
+	color: #FFF !important;
+ 	background-color: #00a7e1;
+ 	font-size: 1em;
+ 	margin-left: .25em;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #e5e5e5;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    display: block;
+    font-size: 21px;
+    line-height: inherit;
+    margin-bottom: 20px;
+    padding-bottom: 4px !important;
+    padding-left: 15px !important;
+    padding-top: 3px !important;
+    width: 100%;
+}
+
+.leftmarginoveride {
+	margin-left:-20px
+}
+
+.bottomform {
+    float: left;
+    width: 100%;
+}
+ 
+label {
+	color: #182B60;
+ 	font: normal 1em "Trebuchet MS", Arial, Helvetica, sans-serif;
+ 	margin: 0;
+ 	padding: 0;
+}
+
+input {
+	border: 1px solid #3cf;
+	border-radius: 5px;
+ 	margin: 0;
+ 	padding: .75em 0 .75em .5em;
+ 	width: 70%;
+}
+
+select {padding: .5em 0;}
+
+textarea {
+	height: 10em;
+	padding: .5em;
+	width: 70%;
+}
+
+textarea:focus, 
+input:focus,
+textarea.sffocus,
+input.sffocus {
+	background-color: #EEE;
+	border-color: #182B60;
+} 
+ 
+
+
+
+ 
+ /* DEFINITION LIST STRUCTURE 
+ 
+ used specificity to address inheritance issues
+ ---------------------------------------------- */
+ 
+#signup fieldset {
+	margin-bottom: 4em;
+} 
+
+#demo form input {}
+ 
+#demo form dt,  
+.content form dt,
+.single-column form dt {
+	background-color: transparent;
+ 	margin: 1.5em 0 .25em;
+	padding: 0;
+ 	text-align: left;
+}
+
+#demo form dd,  
+.content form dd,
+.single-column form dd {
+	margin: 0;
+ 	padding: 0;
+ 	text-align: left;
+}
+
+form .checkbox input {width: auto;}
+
+
+
+
+
+/* SUBMIT BUTTON
+---------------------------------------------------------------------------------------------------- */ 
+
+input.submit {
+	background-color: #333;
+ 	border: none;
+ 	color: #FFF;
+ 	cursor: pointer;
+	margin: 1em 0 0;
+ 	padding: .5em 1em;
+	width: 19%;
+} 
+
+
+
+
+
+/* PSEUDO CLASS AND ATTRIBUTE SELECTOR
+---------------------------------------------------------------------------------------------------- */
+
+.content input[placeholder] {color: #999;} 
+
+
+
+
+
+/* THE FOLLOWING RULES APPLY TO SPECIFIC SUBPAGES
+------------------------------------------------- */ 
+
+.newsletter-signup {
+	border: 1px dashed #ddd;
+	padding: .75em;	
+}
+
+.newsletter-signup h4 {
+	font-size: 1.1em;
+	margin: 0 0 1em;}
+
+.newsletter-signup p {margin: 0;}
+
+.newsletter-signup form {
+	margin: 0;
+	width: auto;
+} 
+
+.newsletter-signup form dl {padding: 0;}
+
+.newsletter-signup form input {width: 90%;}
+
+.newsletter-signup form input.submit {
+	margin: 0;
+	width: auto;
+}

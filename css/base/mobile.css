@@ -1,0 +1,489 @@
+/*
+Author: Mario S. Cisneros, P: 469 484 6839
+Author URI: http://www.apptricity.com
+CSS3 Media Queries: Mobile Styles
+Project: Company Website
+Last Modified Date: 9.21.2015
+-------------------------------------------------------------- */
+
+
+
+/* iPAD LANDSCAPE (1024px by 768px) but increased the width to 1085px
+--------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 1085px) {
+	
+#logo {left: 2%;}
+
+.topnav {width: 55%;}
+
+nav ul.menu .submenu {width: 1011px;}
+
+
+/* Homepage Rules 
+-------------------- */
+
+.home .slider-pro .ipad-landscape-rfid {margin-left: -9.75em !important;} 
+
+.page-heading {border-left: none;}
+
+.home h1 {
+	background-size: 1090px 73px;
+	font-size: 2.5em;
+}
+
+.home .spend,
+.home .supply, 
+.home .events, 
+.home .news {
+	float: left;
+	margin: 0;
+	padding: 1em 0;
+	width: 100%;
+}
+
+.home .spend ul, .home .supply ul {
+	margin: 0 0 1em;
+	text-align: center;
+}
+
+.home .content-silos-wrapper {
+	padding: 0 1%;
+	width: 98%;
+}
+
+
+/* Subpage Rules 
+-------------------- */
+.breadcrumb {padding-left: 2%;}
+
+.content {padding-left: 1%;}
+
+
+/* Footer Rules 
+------------------ */ 
+.outer-footer .copyright {margin-left: 1%;}
+
+.outer-footer .footer-social-media {left: 69%;} 
+
+}
+
+
+
+
+
+.slicknav_menu {display:none;}
+
+/* BREAKPOINT (1000 Pixels Wide)
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 1000px) {
+	
+/* mobile menu rules must be placed below desktop menu */
+.js #menu, #logo {display:none;}	
+.js .slicknav_menu {display:block;}
+
+
+/* Header Rules 
+------------------ */
+
+header {height: 75px;}
+
+.logo {
+    left: 1%;
+	padding: 0;
+    position: absolute;
+    top: .5em !important;
+}
+
+.topnav {
+	float: left;
+	margin: 2em 0 0 1%;
+	width: 98%;
+
+}
+
+}
+
+
+
+
+/* iPAD PORTRAIT (768 Pixels Wide)
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+/* Header Rules 
+------------------ */
+.topnav {margin-top: 1.5em;}
+
+
+/* Homepage Rules 
+-------------------- */ 
+
+/* --- Controls the positioning of the text --- */
+
+.home .slider-pro .ipad-portrait-expense {margin-left: -4em !important;}
+
+.home .slider-pro {background-size: 985px 73px;}
+
+.home .slider-pro .sp-black h1 {font-size: 1em;}
+
+.home .slider-pro .portrait {width: 735px !important;}
+
+.page-heading {font-size: 1.25em;}
+
+.content,
+.sidenav,
+.sidebar {
+	text-align: left;
+	margin-top: 1em;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 96%;
+}
+
+#careers .content {width: 96%;}
+
+#contact form {width: 60%;}
+
+input.submit {width: 20%;}
+
+
+/* Sidenav 
+------------------ */
+.sidenav {margin-bottom: 2em;}
+
+.sidenav ul li a:link, 
+.sidenav ul li a:active, 
+.sidenav ulli a:visited {background-position: 1% 52% !important;}
+
+.sidenav ul ul li a:link, 
+.sidenav ul ul li a:active, 
+.sidenav ul ul li a:visited {background-position: 2% 52% !important;}
+
+
+/* Footer
+-----------*/
+.inner-footer .solutions,
+.inner-footer .government,
+.inner-footer .resources,
+.inner-footer .about {
+	margin: 2em 0 0;
+	text-align: left;
+	width: 45%;
+}
+
+.inner-footer .solutions,
+.inner-footer .resources {
+	float: left;
+	padding-right: 6%;
+}
+
+.inner-footer .government,
+.inner-footer .about {float: right;}
+
+.inner-footer {padding: 0 2.5% 2em;}
+
+.inner-footer h2 {margin-top: 1.5em;}
+
+.outer-footer {
+	height: 7em;
+	padding: 1em 0;
+	overflow: inherit;
+}
+
+.outer-footer ul {padding-left: 1em;}
+
+.outer-footer .footer-social-media {
+	left: 0;
+	top: 5em;
+	}
+
+}
+
+
+
+
+
+/* iPHONE 6 PLUMP LANDSCAPE (736 Pixels Wide)
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 736px) {
+	
+#logo {top: 2.75em;}
+	
+.inner-footer-wrapper,
+#habla_beta_container_do_not_rely_on_div_classes_or_names {display: none;} /* Olark Chat */
+
+}
+
+
+
+
+
+/* iPHONE 6 LANDSCAPE · (667px Pixels Wide)
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 667px) {
+
+.down-arrow {background: none;}
+
+#contact form {
+	float: left;
+	width: 100%;
+}
+
+#contact .address {
+	float: left;
+	margin-top: 2em;
+	}
+}
+
+
+
+
+
+/* KINDLE PORTRAIT (600 Pixels Wide)
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 600px) {
+
+/* Header
+------------ */	
+header {height: 60px;}
+
+.topnav {
+	top: 1em;
+	width: 95%;
+}
+
+#logo {top: .5em;}
+
+nav {top: 74px;}
+
+#slider {display: none;}
+
+.home .content-silos-wrapper {
+	margin: -2em 0 0;
+	padding: 0 2%;
+}
+
+.home .client-logos {display: none;}
+
+.home h1 {font-size: 1.5em;}
+
+.breadcrumb-wrapper {display: none;}
+
+.container {overflow: visible;}
+
+
+/* Subpages
+-------------- */
+.content h1, .single-column h1,
+.content h2, .single-column h2 {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+	
+#government aside.sidenav,
+#partners aside.sidenav,
+#resources aside.sidenav,
+#about aside.sidenav,
+aside.sidebar {display: none;}
+
+footer a.top {left: 92%;}
+
+}
+
+
+
+
+
+/* BREAKPOINT (599 Pixels Wide)
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 599px) {
+	
+/* Header
+------------ */
+.topnav {margin-left: 3%;}
+
+.topnav ul {width: auto;}
+
+.topnav a:link, .topnav a:active, .topnav a:visited {padding: 0;}
+
+.search-box {display: none;}
+
+}
+
+
+
+/* iPHONE 6 PLUMP PORTRAIT (414 Pixels Wide)
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 414px) {
+
+/* Homepage Slider
+--------------------- */
+.expense-feature-image,
+.supply-chain-feature-image,
+.procure-feature-image,
+.asset-feature-image,
+.field-feature-image {
+	background: none;
+	height: auto;
+}
+
+
+/* Homepage Content
+---------------------- */
+.home .container {padding: 2em 0 0;}
+
+.home .spend,
+.home .supply {font-size: .8em;}
+
+.home .spend h2, 
+.home .supply h2 {
+	font-size: 1.5em;
+	text-align: left;
+}
+
+.home .spend ul, 
+.home .supply ul,
+.home .spend li, 
+.home .supply li  {
+	margin: 0;
+	padding: 0;
+}
+
+.more {float: left;}
+
+.home .content-silos-wrapper {width: 96%;}
+
+
+/* Subpages
+-------------- */
+#ebooks .content h2 {margin-top: 2em;}
+
+#solutions #expense table td {width: 32%;}
+
+td {
+	float: left;
+	padding-left: 0 !important;
+	width: 95%;
+}
+
+.content p:first-child,
+.single-column p:first-child {font-size: 1em;}
+
+.left-column,
+.right-column {width: 100%;}
+
+
+/* Feature Images 
+------------------- */
+
+.feature-image {
+	background-image: none;
+	height: 125px;
+}
+
+.feature-image h1 {
+	font-size: 1.25em;
+	padding: 1% 0 0 2%;}
+	
+.feature-image .subtitle {line-height: 1.5;}
+
+.page-heading {
+	font-size: .8em;
+	position: relative;
+	top: 1em;
+}
+
+.page-heading .subtitle {padding-left: 2% !important;}
+
+.page-heading.slogan ul {
+	color: #000;
+	font-weight: bold;
+	margin: 1em 0 0;
+	padding: 0 0 0 2%;
+}
+
+.page-heading ul {display: none;}
+
+
+/* Footer 
+------------ */
+
+.outer-footer ul {padding-left: 0;}
+
+.outer-footer .copyright p {margin: 0 0 1em .5em;}
+
+.outer-footer ul.sitemap {
+	float: left;
+	font-size: .85em;
+	padding-left: .25em;
+	width: 75%;
+}
+
+.outer-footer .footer-social-media {
+	left: .5em;
+	top: 5.5em;
+	}
+
+}
+
+
+
+
+
+/* Android (Nexus 4) PORTRAIT (384px Pixels Wide)
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 384px) {
+
+.topnav {width: 94%;}
+
+.home h1 {font-size: 1.8em;}
+
+.home .container {padding: 1% 0 0;}
+
+}
+
+
+
+
+
+/* iPHONE 5 PORTRAIT (320 Pixels Wide)
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 320px) {
+	
+#wrapper {margin: 16em auto 2em;}
+
+input.submit {width: 28%;}
+
+.outer-footer {
+	height: 8em;
+	overflow: inherit;
+}
+
+.footer-social-media li.socialize {display: none;}
+
+}
+
+
+
+
+
+/* CRAPPY ANDROID PORTRAIT (240 Pixels Wide)
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 240px) {
+	
+.logo {max-width: 50%;}
+
+.topnav a:link, .topnav a:active, .topnav a:visited {font-size: .7em;}
+
+}

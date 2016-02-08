@@ -1,0 +1,643 @@
+/*
+Frontend Developer: Mario S. Cisneros, P: 214.596.0601 Ext. 107
+Author URI: http://www.apptricity.com
+CSS: Global Page Styles
+Project: Company Website
+Passed W3C: 5.1.2015
+Last Modified Date: 9.23.2015
+-------------------------------------------------------------- */
+
+/* THE FOLLOWING RULES APPLY TO SPECIFIC SUBPAGES
+-------------------------------------------------------------- */ 
+
+/* Case Study Section
+----------------------------------------- */
+
+#casestudy-left {
+	width: 300px; 
+	float: left;
+	padding: 5px 15px;
+}
+
+#casestudy-middle {
+	width: 300px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#casestudy-right {
+	width: 300px;
+	padding: 5px 15px;
+	float: left;
+}
+
+#case-studies table td {
+	padding: 0 1.5em 3em 0;
+}
+
+#case-studies td h2 {
+	border-bottom: none;
+	margin: 0;
+}
+
+
+
+
+
+/* Mobile Enterprise Solutions Section
+----------------------------------------- */ 
+
+/* Product Icons */
+#careers table, 
+#solutions table {
+	margin: 1em 0 2em;
+	width: 95%;
+}
+
+#careers table td, 
+#solutions table td {
+	font-size: .8em;
+	padding: 0 0 .5em;
+	text-align: center;
+}
+
+#careers table td img,
+#solutions table td img {
+	display: inline-block;
+	margin-top: 2em; 
+}
+
+.product-title {
+  font-style: italic; 
+  font-weight: bold;
+}
+
+.product-title span {
+  font-style: normal; 
+  font-weight: normaL;
+  margin-left: 5px;
+}
+
+.subtitle {
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: -1em !important;
+  margin-bottom: 2em !important;
+}
+
+.subtitle span {
+  font-size: .8em;
+  font-style: italic; 
+  font-weight: normaL;
+  padding-left: 1px;
+}
+
+
+/*  /solutions/spend-management/expense.html
+------------------------------------------------ */
+
+#solutions h2 ~ p strong {color: #00945d;}
+#solutions h2 ~ p strong em {color: #000;}
+
+#solutions .blue-text p strong {color: #005f9b;}
+#solutions .blue-text p strong em {color: #000;}
+
+
+.dyncontent p {margin-top: .75em;}
+
+#solutions .dyncontent p {margin-top: 2.5em;}
+
+#solutions .dyncontent p + p {
+	font-size: .8em;
+	font-weight: normal;
+	margin-top: .5em;
+}
+
+
+
+/* /partners/index.html
+-------------------------- */ 
+
+#partners-overview img + p {margin-bottom: 3em;}
+
+.partners-overview-offerings h2 {
+	line-height: normal;
+	margin-bottom: 0;
+}
+
+.partners-overview-offerings hr {margin: 3em 0;}
+
+#partners aside .button {
+	font-size: .8em;
+	padding: 1em;
+}
+
+
+
+/* /resources/apptricity-university.html
+------------------------------------------- */ 
+
+.apptricity-university p>a {
+	display: block;
+	margin-bottom: 2em;
+}
+
+
+
+/* /resources/ebooks.html
+   /resources/newsletters.html
+   /resources/webinars.html
+   /resources/white-papers.html
+---------------------------------- */ 
+
+#ebooks .single-column th {
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.5;
+	padding: 0 0 1em 0;
+	text-align: center;
+}
+
+#newsletters .content h2 {margin-top: 0;}
+
+#webinars .content h2 {margin-top: 0;}
+
+#white-papers .single-column td > span,
+#ebooks .single-column td > span {
+	display: block;
+	text-align: center;
+}
+
+#webinars .single-column .separator {
+	padding-top: 2em;
+}
+
+
+
+/* /about/executive-team.html
+-------------------------------- */ 
+
+#executive-team .content dl {
+	margin: 3em 0;
+	padding: 0;}
+ 
+#executive-team .content dt {
+	background-color: #fff;
+	color: #005f98;
+ 	font-size: 1.1em;
+ 	font-weight: bold;
+	margin-top: 3em;
+}
+
+#executive-team .content dd {
+	margin: 0;
+	padding: 1em 0 0;
+}
+
+.biophoto {
+	border: 1px solid #555;
+    float: left;
+    margin: 0 1.5em .5em 0;
+    padding: 4px;
+}
+
+
+
+/* /about/events.html 
+   /about/careers/index.html
+   /about/press-releases/index.html
+   /resources/white-papers.html
+------------------------------------------------ */ 
+
+#events .single-column h2,
+#webinars .single-column h2 {
+	border-bottom: none;
+	color: #ff7f3f;
+	margin: 0;
+}
+
+#events .single-column h3,
+#webinars .single-column h3 {margin: 0 0 -.5em;}
+
+#events .single-column table,
+#webinars .single-column table {margin: 1.5em 0 0;}
+
+#events .single-column table td,
+#webinars .single-column td {padding: 0 1.5em 0 0;}
+
+#events .single-column ul li,
+#webinars .single-column ul li {list-style: none;}
+
+#careers .content {width: 70%;}
+#careers .sidebar {margin: -1.5em 0 0;}
+
+#fader {
+    height: 300px;
+	margin-bottom: 2em;
+	position: relative; 
+    width: 100%;
+}
+
+.ondemand {
+	color: #888;
+	font-style: italic;
+	margin-top: .25em !important;
+}
+
+#press-releases table td {
+	padding: 0 1.5em 3em 0;
+}
+
+#press-releases td h2 {
+	border-bottom: none;
+	margin: 0;
+}
+
+
+
+/* contact.html
+------------------------------ */ 
+
+#contact form {
+	float: left;
+	margin: 1em 0 0;
+	width: 70%;
+}
+
+#contact .address {
+	float: right;
+	margin-top: 2em;}
+
+#contact address {margin-bottom: 2em;}
+
+
+
+/* sitemap.html
+------------------------------ */ 
+
+.sitemap-margin-top {margin-top: 1em;}
+
+.sitemap .accordion h2 {
+	font-size: 1.1em;
+	margin: 1em 0 .5em;
+}
+
+.sitemap .accordion h3 {
+	margin: 1.5em 0 0;
+}
+
+.sitemap a {font-size: 1.1em;}
+
+
+
+
+
+/* FEATURE IMAGES
+
+   Embeds the feature image as background-image 
+   while retaining the SEO importance of the H1 tag
+-------------------------------------------------------------- */
+
+.feature-image {
+	color: #fff;
+	height: 300px;
+	margin-top: .25em;
+	width: 100%;
+}
+
+.page-heading-wrapper {
+	margin: 0 auto;
+	position: relative;
+	max-width: 1150px;
+}
+
+.page-heading {
+	border-left: 3px solid #fff;
+	font-size: 1.5em;
+	position: absolute;
+	top: 2.5em;
+	width: 100%;
+}
+
+.page-heading h1 {
+	color: #fff;
+	margin: 0 auto;
+	padding: 0 0 0 3%;}
+	
+.page-heading .subtitle {
+  font-weight: normal;
+  line-height: normal;
+  margin: .75em 0 0 !important;
+  padding-left: 3% !important;
+}
+
+.page-heading.slogan ul {
+	margin: 2em 0 0;
+	padding: 0 0 0 3%;
+}
+
+.page-heading.slogan li {
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+}
+
+.page-heading.slogan li span {
+	padding: 0 1%;
+}
+
+.solutions-overview-feature-image {
+	background: #005f9b url("/images/banners/solutions/solutions-overview-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+
+/* Spend Management
+---------------------- */
+.spend-management-overview-feature-image {
+	background: #00945d url("/images/banners/solutions/spend-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+.expense-spend-management-feature-image {
+	background: #00945d url("/images/banners/solutions/travel-expense-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+.invoice-spend-management-feature-image {
+	background: #00945d url("/images/banners/solutions/invoice-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+.purchasing-spend-management-feature-image {
+	background: #00945d url("/images/banners/solutions/purchasing-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+.time-attendance-spend-management-feature-image {
+	background: #00945d url("/images/banners/solutions/time-attendance-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+.procure-to-pay-spend-management-feature-image {
+	background: #00945d url("/images/banners/solutions/procure-to-pay-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+
+/* Supply Chain
+------------------ */
+.supply-chain-feature-image {
+	background: #005f98 url("/images/banners/solutions/supply-chain-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+.asset-supply-chain-feature-image {
+	background: #005f98 url("/images/banners/solutions/asset-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+.inventory-supply-chain-feature-image {
+	background: #005f98 url("/images/banners/solutions/inventory-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+.field-services-supply-chain-feature-image {
+	background: #005f98 url("/images/banners/solutions/field-services-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+.warehouse-supply-chain-feature-image {
+	background: #005f98 url("/images/banners/solutions/warehouse-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+.work-order-supply-chain-feature-image {
+	background: #005f98 url("/images/banners/solutions/work-order-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+
+/* Government Services
+------------------------- */
+.government-services-overview-feature-image {
+	background: #ff6319 url("/images/banners/government/government-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+.defense-government-services-feature-image {
+	background: #ff6319 url("/images/banners/government/defense-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+.federal-government-services-feature-image {
+	background: #ff6319 url("/images/banners/government/federal-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+.state-government-services-feature-image {
+	background: #ff6319 url("/images/banners/government/state-banner.jpg") no-repeat;
+	background-size: cover;
+}
+
+
+/* Partner Programs
+------------------------- */
+.partner-programs-feature-image {
+	background: #005f98 url("/images/banners/partners/partners.jpg") no-repeat;
+	background-size: cover;
+}
+
+.distribution-partner-programs-feature-image {
+	background: #005f98 url("/images/banners/partners/distribution.jpg") no-repeat;
+	background-size: cover;
+}
+
+.service-partner-programs-feature-image {
+	background: #005f98 url("/images/banners/partners/service.jpg") no-repeat;
+	background-size: cover;
+}
+
+.solutions-partner-programs-feature-image {
+	background: #005f98 url("/images/banners/partners/solutions.jpg") no-repeat;
+	background-size: cover;
+}
+
+.system-partner-programs-feature-image {
+	background: #005f98 url("/images/banners/partners/system.jpg") no-repeat;
+	background-size: cover;
+}
+
+.technology-partner-programs-feature-image {
+	background: #005f98 url("/images/banners/partners/technology.jpg") no-repeat;
+	background-size: cover;
+}
+
+#partners .page-heading .subtitle,
+#resources .page-heading .subtitle,
+#partners .page-heading ul,
+#resources .page-heading ul {display: none;}
+
+
+
+
+/* Resources
+------------------------- */
+.resources-feature-image {
+	background: #005f98 url("/images/banners/resources/resources.jpg") no-repeat;
+	background-size: cover;
+}
+
+
+/* Overview Pages 
+------------------------ */
+
+#spend-overview .page-heading {top: 1.25em;}
+
+#supply-overview .page-heading {top: 1.75em;}
+
+.page-heading ul.product-icons ul {
+	margin: 1% 0 0;
+}
+
+.page-heading ul.product-icons li {
+	margin: 0 1%;
+}
+
+
+
+
+
+/* CUSTOM TOOLTIP
+   http://cbracco.me/a-simple-css-tooltip/
+-------------------------------------------- */ 
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #005f9b;
+  background-color: #005f9b;
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.2;
+  width: 160px;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #005f9b;
+  border-top: 5px solid #005f9b;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+#expense td a:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* CUSTOM 404 PAGE
+------------------------------ */ 
+
+.error404 {
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    box-shadow: 0 1px 10px #A7A7A7,inset 0 1px 0 #FFF;
+    max-width: 510px;
+    padding: 1em 1em 3em;
+    margin: 5em auto;
+}
+
+.error404 h1 {
+    background: #00a7e1;
+	font-size: 2em;
+	height: auto;
+    margin-bottom: 1em;
+    padding: 2%;
+	text-align: center;
+   }
+
+.error404 ul {
+	margin: 0 0 1em 2em;
+}
+
+.error404 a:link {
+    text-decoration: none;
+}
+
+.error404 span {
+    color: #fff;
+    font-size: 4em;
+}
+
+.error404 .return-home {
+    display: block;
+    float: right;
+    margin-left: 2em;
+}
+
+.error404 .return-previous {
+    display: block;
+    float: right;    
+}
+
+.error404 .black {
+    background: #31302B;
+	border-radius: 8px;
+	color: #FFF!important;
+    display: inline;
+    display: block;
+    font: bold 14px arial, sans-serif;
+    line-height: 32px;
+	margin-left: 2em;
+    padding: 0 .8em;
+}

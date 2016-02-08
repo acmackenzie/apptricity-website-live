@@ -1,0 +1,314 @@
+/*
+Frontend Developer: Mario S. Cisneros, P: 214.596.0601 Ext. 107
+Author URI: http://www.apptricity.com
+CSS: Global Header Styles
+Project: Company Website
+Passed W3C: 0.0.2015
+Last Modified Date: 9.24.2015
+-------------------------------------------------------------- */
+
+header {
+    font-size: .8em;
+    height: 150px;
+	margin: 0 auto;
+    position: relative;
+    max-width: 1150px;
+}
+
+.header-wrapper {
+	background-color: #005f9b;
+	width: 100%;
+}
+
+#logo {
+    left: 0;
+    position: absolute;
+    top: 1.75em;
+}
+
+#logo a {
+    display: block;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+	vertical-align: middle;
+}
+
+
+
+
+
+/* TOP NAVBAR: CONTACT US, REQUEST A DEMO, SUPPORT, EUROPE & SEARCH BOX
+---------------------------------------------------------------------------------------- */
+.topnav {
+    color: #fff;
+	float: right;
+	line-height: normal;
+	position: relative;
+	top: 1.75em;
+	width: 52%;
+}
+
+.topnav ul {
+	text-align: left;
+	margin: 0;
+ 	padding: 0;
+	width: 60%;
+}
+
+.topnav ul li {
+	display: inline;
+ 	position: relative;
+}
+
+.topnav a:link,
+.topnav a:active,
+.topnav a:visited {
+    color: #97d4e9;
+	font-size: 1em;
+	font-weight: normal;
+	padding: 0 2%;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+    color: #fff;
+}
+
+.search-box {
+	position: absolute;
+	right: 0;
+	top: -.5em;
+}
+
+.search-box form {
+	margin: 0 !important;
+	padding: 0;
+    width: auto !important;
+}
+
+.search-box form input {
+	margin: 0;
+	padding: .35em .25em;
+    width: auto;
+}
+
+.search-box form input.button {
+    padding: .35em .75em;
+}
+
+
+
+
+
+/* MAIN NAVBAR
+---------------------------------------------------------------------------------------- */
+nav {
+	background-color: transparent;
+	float: left;
+ 	position: relative;
+	text-align: center;
+ 	top: 92px;
+ 	width: 100%;
+}
+
+nav ul {
+    list-style: none;
+	margin: 0;
+    padding: 0;
+	text-align: left;
+	z-index: 100;
+}
+
+nav ul li {
+	display: inline;
+  	float: left;
+	margin: 0 .5% 0 0;
+	padding: 0;
+ 	position: relative;
+}
+
+nav ul li a:link,
+nav ul li a:active,
+nav ul li a:visited {
+    color: #fff;
+	display: block;
+	margin: 0;
+    padding: 1em 1.5em 1.25em 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+span.down-arrow {
+	background: url("/images/icons/down-arrow-main-menu.png") no-repeat 0;
+	padding: 0 5px;
+}
+
+
+
+/* --- Style the top level hover --- */
+
+nav ul li a:hover {
+	background-color: #00416a;
+	color: #FFF;
+	text-decoration: none;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+} 
+
+
+
+/* --- Style the top level active state --- */
+
+#overviews .overviews > a,
+#solutions .solutions > a,
+#government .government > a,
+#partners .partners > a,
+#resources .resources > a,
+#about .about > a, 
+#blog .blog > a{
+	background-color: #00416a;
+ 	color: #FFF !important;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+nav :hover>a, nav ul ul :hover>a {
+	background-color: #00416a;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+
+
+/* SUBMENU 
+----------------------------------------------------------- */
+
+nav ul.menu .submenu {
+    background-color: #00416a;
+	display: none;
+    float: left;
+	/*font-size: .8em;*/
+    left: 0;
+    top: 97%;    
+    padding: 0 0;
+	position: absolute;
+	width: 1150px;
+	z-index: 100;
+}
+
+/* --- Controls the positioning of the submenu --- */
+nav ul.menu li.overviews .submenu {left: 0%; width: 300px;}
+nav ul.menu li.solutions .submenu {left: 0%; width: 300px;}
+nav ul.menu li.government .submenu {left: 0%; width: 300px;}
+nav ul.menu li.partners .submenu {	left: 0%; width: 300px;}
+nav ul.menu li.resources .submenu {left: 0%; width: 300px;}
+nav ul.menu li.about .submenu {left: 0%; width: 300px;}
+nav ul.menu li.blog .submenu {left: 0%; width: 300px;}
+
+/* --- Controls the positioning of the dropdowns --- */
+ul.menu .column {
+	float: left;
+	margin: 0 1%;
+	/*-- 
+	width: 25%;
+	--*/
+}
+
+ul.menu .column.overviews-dropdown {margin-left: 1%;}
+ul.menu .column.solutions-dropdown {margin-left: 1%;}
+ul.menu .column.government-dropdown {margin-left: 1%;}
+ul.menu .column.partners-dropdown {margin-left: 1%;}
+ul.menu .column.resources-dropdown {margin-left: 1%;}
+ul.menu .column.about-dropdown {margin-left: 1%;}
+ul.menu .column.blog-dropdown {margin-left: 1%;}
+
+
+/* MENU BOX COLOR --*/ 
+ul.menu .column ul a {   
+    background: /* -- url(/images/icons/nav-white-pipe.gif) 4% 49% no-repeat --*/ #00416a; 
+	color: #FFF;
+	padding: 0em 0 .5em 1.5em;
+	text-align: left;
+    text-decoration: none;
+	text-transform: none;
+}
+
+ul.menu li:hover>* {display: block;}
+
+ul.menu li:hover {position: relative;}
+
+ul.menu ul {
+	margin: 0; 
+	padding: 0;
+}
+
+ul.menu li {
+    white-space: nowrap;
+    float: left;
+}
+
+ul.menu a:active, 
+ul.menu a:focus {outline-style: none;}
+
+ul.menu ul li {
+    float: none;
+    margin: 0 0 0 2%;
+}
+
+ul.menu ul li:hover>a {
+    border-top-left-radius: 0;
+	border-top-right-radius: 0;
+    color: #ff9d6b;
+    text-decoration: none;
+} 
+
+
+
+
+/* MAIN NAVBAR: DEMO BUTTON
+------------------------------- */
+.demo {
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5) inset;
+	border: 1px solid #5F5F5F;
+	background: linear-gradient(to bottom, #6BD598 0px, #489074 100%) repeat scroll 0% 0% transparent;
+	border-radius: 4px;
+	color: #FFF !important;
+    cursor: pointer;
+    display: inline-block;
+	float: right;
+	height: 3.2em;
+	line-height: 3.2em;
+  	margin: .125em 1% 0 0;
+    padding: 0 1.8em;
+	text-align: center;
+	text-shadow: 0px -1px 0px #3574E3;
+	text-decoration: none !important;
+    transition: opacity 0.15s linear 0s;
+	white-space: normal;
+	max-width: 100%;
+}
+
+.demo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.demo a:hover {
+  background-color: transparent !important;
+  text-decoration: none;
+}

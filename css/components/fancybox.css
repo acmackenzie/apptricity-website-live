@@ -1,0 +1,103 @@
+/*
+Frontend Developer: Mario S. Cisneros, P: 214.596.0601 Ext. 107
+Author URI: http://www.apptricity.com
+CSS: Fancybox Lightbox Styles
+Project: Company Website
+Passed W3C: 5.1.2015
+Last Modified Date: 9.28.2015
+-------------------------------------------------------------- */
+
+#fancybox-loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	margin-left: -20px;
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 1104;
+	display: none;
+}
+
+#fancybox-loading div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 480px;
+	/*background-image: url('fancybox.png');*/
+}
+
+#fancybox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1100;
+	display: none;
+}
+
+#fancybox-tmp {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	overflow: auto;
+	display: none;
+}
+
+#fancybox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	z-index: 1101;
+	outline: none;
+	display: none;
+}
+
+#fancybox-outer {
+	background: #293033;
+	border-radius: 10px;
+	padding: 0 1em;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#fancybox-content {
+	border: 0 solid #293033;
+	color: #ddd;
+	height: 0;
+	outline: none;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	line-height: 1.5;
+	width: 0;
+	z-index: 1102;
+}
+
+#fancybox-content table {
+	margin: 0;
+	width: auto;
+}
+
+#fancybox-content table td {
+	font-size: .9em;
+	padding: 0;
+	text-align: left;
+}
+
+#fancybox-content table td > img {
+	margin: 3em 1em 0 0;
+	max-width: none;
+}
+
+#fancybox-content .titlebar {
+	color: #999;
+	display: inline-block;
+	font-size: 1.35em;
+	margin-bottom: .75em;
+}

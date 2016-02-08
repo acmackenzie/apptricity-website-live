@@ -1,0 +1,207 @@
+/*
+Frontend Developer: Mario S. Cisneros, P: 214.596.0601 Ext. 107
+Author URI: http://www.apptricity.com
+CSS: Global Footer Styles
+Project: Company Website
+Passed W3C: 0.0.2015
+Passed CSS Lint: 0.0.2015
+Last Modified Date: 5.28.2015
+-------------------------------------------------------------- */
+
+footer {
+    font-size: .8em;
+	margin: 0 auto;
+    position: relative;
+    text-align: left;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+ 
+/* INNER FOOTER
+------------------------------------- */
+
+.inner-footer-wrapper {
+	background-color: #005f9b;
+	border-top: 1px solid #005f9b;
+	width: 100%;
+}
+
+.inner-footer {
+	color: #005f9b;
+	margin: 0 auto;
+	max-width: 1150px;
+ 	overflow: auto;
+ 	padding: 2em 0;
+ 	position: relative;	
+}
+ 
+.inner-footer h5 {
+	border-bottom: 1px solid #005f9b;
+ 	color: #fff;
+ 	font: 1.4em "open sans", arial, sans-serif;
+ 	letter-spacing: 1px;
+ 	margin: 0 0 15px 0;
+ 	padding: 0 0 5px 5px;
+ 	text-align: left;
+}
+
+.inner-footer ul {
+    line-height: 2;
+	list-style-position: inside;
+	margin: 0 0 0 5%;
+}
+
+.inner-footer ul li a:link,
+.inner-footer ul li a:active,
+.inner-footer ul li a:visited {
+    color: #fff;
+    padding: 0 1%;
+	text-decoration: none;
+}
+
+.inner-footer ul li a:hover {
+    border-bottom: none;
+    color: #fff;
+    padding: 0 1%;
+    text-decoration: underline;
+}
+
+.inner-footer .solutions,
+.inner-footer .government,
+.inner-footer .partner,
+.inner-footer .resources,
+.inner-footer .blog {
+	float: left;
+	margin: 0 5% 0 0;
+ 	padding: 0;
+ 	width: 16%;
+}
+
+.inner-footer .solutions ul ul {
+	line-height: 1.5;
+	margin-left: 1.75em;}
+	
+.inner-footer .solutions ul li.last-child {margin-top: .8em;}
+
+.inner-footer .about {
+	float: left;
+ 	padding: 0;
+ 	width: 16%;
+}
+
+
+/* OUTER FOOTER
+------------------------------------- */ 
+
+.outer-footer-wrapper {
+	background-color: #000;
+	width: 100%;
+}
+
+.outer-footer {
+	color: #a7a7a7;
+	margin: 0 auto;
+	max-width: 1150px;
+	overflow: auto;
+	padding: 2em 0;
+	position: relative;
+	text-align: left;
+}
+
+.outer-footer .copyright {width: auto;}
+
+.outer-footer .copyright p {
+	display: inline;
+	float: left;
+	margin: 0 3% 0 0;
+	padding: 0;
+}
+
+.outer-footer ul li {display: inline;}
+
+.outer-footer ul li a:link,
+.outer-footer ul li a:active,
+.outer-footer ul li a:visited {
+    color: #a7a7a7;
+    padding: 0 .5%;
+	text-decoration: none;
+}
+
+.outer-footer ul li a:hover {
+    border-bottom: none;
+    color: #97d4e9;
+    padding: 0 .5%;
+    text-decoration: none;
+}
+
+
+/* SOCIAL MEDIA 
+----------------------------------------------------------------------------------------------------*/
+
+.outer-footer .footer-social-media {
+	left: 73%;
+    position: absolute;
+	top: 1.5em;
+}
+
+.outer-footer .footer-social-media li {
+	display: inline-block;
+}
+
+.footer-social-media li a {
+	background: url("/images/icons/social-media-sprite.png") no-repeat;
+	border: none;
+	display: block;
+	height: 32px;
+	width: 32px;
+}
+
+.footer-social-media  li.socialize {
+	float: left;
+	padding: .5em 1em 0 0;
+}
+
+/* Facebook */
+.footer-social-media li a.facebook {background-position: 0 0;}
+.footer-social-media li a.facebook:hover {background-position: -50px 0;}
+
+/* Twitter */
+.footer-social-media li a.twitter {background-position: 0 -40px;}
+.footer-social-media li a.twitter:hover {background-position: -50px -40px;}
+
+/* YouTube */
+.footer-social-media li a.youtube {background-position: 0 -80px;}
+.footer-social-media li a.youtube:hover {background-position: -50px -80px;}
+
+/* Linkedin */
+.footer-social-media li a.linkedin {background-position: 0 -120px;}
+.footer-social-media li a.linkedin:hover {background-position: -50px -120px;}
+
+/* Google+ */
+.footer-social-media li a.google {background-position: 0 -160px;}
+.footer-social-media li a.google:hover {background-position: -50px -160px;}
+
+
+
+/* BACK TO TOP
+----------------------------------------------------------------------------------------------------*/ 
+
+.footer-pipe {
+    padding-left: 1em;
+}
+
+footer a.top {
+    background: url(/images/icons/top.gif) no-repeat;
+    display: block;
+    height: 17px;
+    left: 97%;
+    position: absolute;
+    top: 0;
+    width: 23px;
+	z-index: 20;
+}

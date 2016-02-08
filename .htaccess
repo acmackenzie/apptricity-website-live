@@ -1,0 +1,264 @@
+#Force www:
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^$
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTPS}s ^on(s)|
+RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+AddDefaultCharset UTF-8
+
+ErrorDocument 404 http://www.apptricity.com/404page.html
+
+# COMPRESSION
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 day"
+ExpiresByType image/jpeg "access 1 day"
+ExpiresByType image/gif "access 1 day"
+ExpiresByType image/png "access 1 day"
+ExpiresByType text/css "access 1 day"
+ExpiresByType text/html "access 1 day"
+ExpiresByType application/pdf "access 1 day"
+ExpiresByType text/x-javascript "access 1 day"
+ExpiresByType application/x-shockwave-flash "access 1 day"
+ExpiresByType image/x-icon "access 1 day"
+ExpiresDefault "access 1 day"
+</IfModule>
+## EXPIRES CACHING ##
+
+## 2015 Rooster ##
+
+redirect 301 /contact.html http://www.apptricity.com/apptricity-contact-us.html
+redirect 301 /demo.html http://www.apptricity.com/apptricity-request-a-demonstration.html
+redirect 301 /resources/support.html http://www.apptricity.com/apptricity-customer-support.html
+redirect 301 /europe/index.html http://www.apptricity.com/apptricity-europe-middle-east-africa.html
+
+## SOLUTIONS ##
+
+redirect 301 /Asset/index.html http://www.apptricity.com/apptricity-asset-management.html
+redirect 301 /solutions/index.html http://www.apptricity.com/
+redirect 301 /solutions/spend-management/index.html http://www.apptricity.com/apptricity-spend-management.html
+redirect 301 /solutions/spend-management/expense.html http://www.apptricity.com/apptricity-travel-and-expense-management.html
+redirect 301 /solutions/spend-management/invoice.html http://www.apptricity.com/apptricity-invoice-management.html
+redirect 301 /solutions/spend-management/purchasing-requisition.html http://www.apptricity.com/apptricity-purchasing.html
+redirect 301 /solutions/spend-management/procure-to-pay.html http://www.apptricity.com/apptricity-procure-to-pay.html
+redirect 301 /solutions/supply-chain-management/index.html http://www.apptricity.com/apptricity-supply-chain-execution.html
+redirect 301 /solutions/supply-chain-management/asset.html http://www.apptricity.com/apptricity-asset-management.html
+redirect 301 /solutions/supply-chain-management/inventory.html http://www.apptricity.com/apptricity-inventory-management.html
+redirect 301 /solutions/supply-chain-management/field.html http://www.apptricity.com/apptricity-field-services.html
+redirect 301 /solutions/supply-chain-management/warehouse.html http://www.apptricity.com/apptricity-warehouse-management.html
+redirect 301 /solutions/supply-chain-management/work-order.html http://www.apptricity.com/apptricity-work-order-management.html
+redirect 301 /solutions/spend-management/purchasing-card.html http://www.apptricity.com/apptricity-purchasing.html
+
+## GOVERNMENT SERVICES ##
+
+redirect 301 /government-services/index.html http://www.apptricity.com/apptricity-government-services.html
+redirect 301 /government-services/defense-national-security.html http://www.apptricity.com/apptricity-government-services.html
+redirect 301 /government-services/federal-services-solutions.html http://www.apptricity.com/apptricity-government-services.html
+redirect 301 /government-services/state-local-solutions.html http://www.apptricity.com/apptricity-government-services.html
+
+
+## PARTNER PROGRAMS ##
+
+redirect 301 /partner-programs/index.html http://www.apptricity.com/apptricity-partners.html
+redirect 301 /partner-programs/distribution-partners.html http://www.apptricity.com/apptricity-partners.html
+redirect 301 /partner-programs/service-providers.html http://www.apptricity.com/apptricity-partners.html
+redirect 301 /partner-programs/solution-providers.html http://www.apptricity.com/apptricity-partners.html
+redirect 301 /partner-programs/system-integrators.html http://www.apptricity.com/apptricity-partners.html
+redirect 301 /partner-programs/technology-partners.html http://www.apptricity.com/apptricity-partners.html
+redirect 301 /partner-programs/partner-program-signup.html http://www.apptricity.com/apptricity-partner-program-signup.html
+
+
+## RESOURCES ##
+
+redirect 301 /resources/apptricity-university.html http://www.apptricity.com/apptricity-university.html
+redirect 301 /resources/analyst-recognition.html http://www.apptricity.com/apptricity-resources.html
+redirect 301 /resources/case-studies.html http://www.apptricity.com/apptricity-resources.html
+redirect 301 /resources/ebooks.html http://www.apptricity.com/apptricity-resources.html
+redirect 301 /resources/newsletters.html http://www.apptricity.com/apptricity-resources.html
+redirect 301 /resources/webinars.html http://www.apptricity.com/apptricity-resources.html
+redirect 301 /resources/white-papers.html http://www.apptricity.com/apptricity-resources.html
+redirect 301 /resources/case-studies/td-bank-case-study.html http://www.apptricity.com/docs/apptricity-TD-Bank-Case-Study.pdf
+redirect 301 /resources/case-studies/national-travel-case-study.html http://www.apptricity.com/docs/apptricity-Case-Study-National-Travel.pdf
+redirect 301 /resources/case-studies/aerospace-case-study.html http://www.apptricity.com/docs/apptricity-Case-Study-Asset-Management.pdf
+redirect 301 /resources/case-studies/lone-star-case-study.html http://www.apptricity.com/docs/Apptricity_Lone_Star_Case_Study.pdf
+
+
+## ABOUT ##
+
+redirect 301 /about/index.html http://www.apptricity.com/about-apptricity.html
+redirect 301 /about/careers/index.html http://www.apptricity.com/apptricity-career-opportunities.html
+redirect 301 /about/customers.html http://www.apptricity.com/apptricity-customers.html
+redirect 301 /about/events.html http://www.apptricity.com/about-apptricity.html#events
+redirect 301 /about/executive-team.html http://www.apptricity.com/about-apptricity.html#executive
+redirect 301 /about/green-initiative.html http://www.apptricity.com/apptricity-green-initiative.html
+redirect 301 /about/press-releases/index.html http://www.apptricity.com/apptricity-press-releases.html
+redirect 301 /about/privacy-policy.html http://www.apptricity.com/apptricity-privacy-policy.html
+redirect 301 /about/press-releases/Texas-A-M-University-Selects-Apptricity-Inventory-Management.html http://www.apptricity.com/apptricity-press-release-Texas-A-M-University-Selects-Apptricity-Inventory-Management.html
+redirect 301 /about/press-releases/MCAP-Selects-Apptricity-Automated-Spend-Management-Solution.html http://www.apptricity.com/apptricity-press-release-MCAP-Selects-Apptricity-Automated-Spend-Management-Solution.html
+redirect 301 /about/press-releases/index.html http://www.apptricity.com/apptricity-press-releases.html
+
+
+## CAREERES ##
+
+redirect 301 /about/careers/account-executive.html http://www.apptricity.com/apptricity-career-opportunities.html
+redirect 301 /about/careers/dba.html http://www.apptricity.com/apptricity-career-opportunities.html
+redirect 301 /about/careers/implementation-technician.html http://www.apptricity.com/apptricity-career-opportunities.html
+redirect 301 /about/careers/inside-sales-channel-representative.html http://www.apptricity.com/apptricity-career-opportunities.html
+redirect 301 /about/careers/Lead-Generation-and-Marketing-Event-Coordinator.html http://www.apptricity.com/apptricity-career-opportunities.html
+redirect 301 /about/careers/mid-level-java-developer.html http://www.apptricity.com/apptricity-career-opportunities.html
+redirect 301 /about/careers/presales-system-engineer.html http://www.apptricity.com/apptricity-career-opportunities.html
+redirect 301 /about/careers/project-manager-applications.html http://www.apptricity.com/apptricity-career-opportunities.html
+redirect 301 /about/careers/quality-assurance-engineer.html http://www.apptricity.com/apptricity-career-opportunities.html
+redirect 301 /about/careers/senior-level-java-developer.html http://www.apptricity.com/apptricity-career-opportunities.html
+redirect 301 /about/careers/software-architect.html http://www.apptricity.com/apptricity-career-opportunities.html
+redirect 301 /about/careers/supply-chain-product-manager.html http://www.apptricity.com/apptricity-career-opportunities.html
+redirect 301 /about/careers/web-designer-developer.html http://www.apptricity.com/apptricity-career-opportunities.html
+
+
+## MISC ##
+
+redirect 301 /sitemap.html http://www.apptricity.com/apptricity-sitemap.html
+redirect 301 /solutions/soa-framework.html http://www.apptricity.com/apptricity-soa-framework.html
+redirect 301 /downloads/apptricity-university-terms-and-conditions-final-092214.pdf http://www.apptricity.com/docs/apptricity-university-terms-and-conditions-final-092214.pdf
+
+
+## 2014 ##
+redirect 301 /asset http://www.apptricity.com/solutions/supply-chain-management/asset.html
+
+redirect 301 /press/apptricity-announces-jetstream-solution-platform http://www.apptricity.com/about/press-releases/archives/2012/apptricity-announces-jetstream-solution-platform.html
+redirect 301 /press/apptricity-announces-jetstream-solution-platform/ http://www.apptricity.com/about/press-releases/archives/2012/apptricity-announces-jetstream-solution-platform.html
+redirect 301 /about-us/careers/ http://www.apptricity.com/about/careers/index.html
+
+# WORDPRESS
+redirect 301 /invoice-management http://www.apptricity.com/solutions/spend-management/invoice.html
+redirect 301 /supply-chain http://www.apptricity.com/solutions/supply-chain-management/
+redirect 301 /how-transportation-management-helps-ups-save-14-5-million-per-minute/ http://blog.apptricity.com/2014/05/how-transportation-management-helps-ups-save-14-5-million-per-minute/
+redirect 301 /solutions/e-procurement/ http://www.apptricity.com/solutions/spend-management/procure-to-pay.html
+redirect 301 /knowing-where-your-vehicles-are-saves-money/ http://blog.apptricity.com/2014/01/knowing-where-your-vehicles-are-saves-money/
+redirect 301 /warning-green-supply-chain-innovation-is-closer-than-it-appears/ http://blog.apptricity.com/2014/05/warning-green-supply-chain-innovation-is-closer-than-it-appears/
+redirect 301 /kmart-vs-wal-mart-a-study-in-supply-chain-approaches/ http://blog.apptricity.com/2013/12/kmart-vs-wal-mart-a-study-in-supply-chain-approaches/
+redirect 301 /apptricity1/e-procurement/ http://www.apptricity.com/solutions/spend-management/procure-to-pay.html 
+redirect 301 /solutions/eprocurement http://www.apptricity.com/solutions/spend-management/procure-to-pay.html 
+redirect 301 /eprocurement http://www.apptricity.com/solutions/spend-management/procure-to-pay.html 
+redirect 301 /solutions/eprocurement/ http://www.apptricity.com/solutions/spend-management/procure-to-pay.html
+redirect 301 /solutions/financial-productivity/expense-management http://www.apptricity.com/solutions/spend-management/expense.html
+
+# SOLUTIONS SUPPLY CHAIN MANAGEMENT SECTION
+redirect 301 /asset/ http://www.apptricity.com/solutions/supply-chain-management/asset.html
+redirect 301 /asset http://www.apptricity.com/solutions/supply-chain-management/asset.html
+redirect 301 /asset-management/ http://www.apptricity.com/solutions/supply-chain-management/asset.html
+redirect 301 /asset-management http://www.apptricity.com/solutions/supply-chain-management/asset.html
+redirect 301 /assetmanagement/ http://www.apptricity.com/solutions/supply-chain-management/asset.html
+redirect 301 /assetmanagement http://www.apptricity.com/solutions/supply-chain-management/asset.html
+
+redirect 301 /inventory/ http://www.apptricity.com/solutions/supply-chain-management/inventory.html
+redirect 301 /inventory http://www.apptricity.com/solutions/supply-chain-management/inventory.html
+redirect 301 /solutions/inventory-management/ http://www.apptricity.com/solutions/supply-chain-management/inventory.html
+redirect 301 /solutions/inventory-management http://www.apptricity.com/solutions/supply-chain-management/inventory.html
+
+redirect 301 /field-services/ http://www.apptricity.com/solutions/supply-chain-management/field.html
+redirect 301 /field-services http://www.apptricity.com/solutions/supply-chain-management/field.html
+redirect 301 /fieldservices/ http://www.apptricity.com/solutions/supply-chain-management/field.html
+redirect 301 /fieldservices http://www.apptricity.com/solutions/supply-chain-management/field.html
+
+redirect 301 /field/ http://www.apptricity.com/solutions/supply-chain-management/field.html
+redirect 301 /field http://www.apptricity.com/solutions/supply-chain-management/field.html
+
+redirect 301 /smartfleet-field-services/ http://www.apptricity.com/solutions/supply-chain-management/field.html
+redirect 301 /smartfleet-field-services http://www.apptricity.com/solutions/supply-chain-management/field.html
+redirect 301 /smartfleet/ http://www.apptricity.com/solutions/supply-chain-management/field.html
+redirect 301 /smartfleet http://www.apptricity.com/solutions/supply-chain-management/field.html
+
+redirect 301 /warehouse/ http://www.apptricity.com/solutions/supply-chain-management/warehouse.html
+redirect 301 /warehouse http://www.apptricity.com/solutions/supply-chain-management/warehouse.html
+redirect 301 /warehouse-management/ http://www.apptricity.com/solutions/supply-chain-management/warehouse.html
+redirect 301 /warehouse-management http://www.apptricity.com/solutions/supply-chain-management/warehouse.html
+
+redirect 301 /work-order/ http://www.apptricity.com/solutions/supply-chain-management/work-order.html
+redirect 301 /workorder/ http://www.apptricity.com/solutions/supply-chain-management/work-order.html
+redirect 301 /workorder http://www.apptricity.com/solutions/supply-chain-management/work-order.html
+redirect 301 /work-order-management/ http://www.apptricity.com/solutions/supply-chain-management/work-order.html
+redirect 301 /work-order-management http://www.apptricity.com/solutions/supply-chain-management/work-order.html
+redirect 301 /workorder-management/ http://www.apptricity.com/solutions/supply-chain-management/work-order.html
+redirect 301 /workorder-management http://www.apptricity.com/solutions/supply-chain-management/work-order.html
+
+redirect 301 /transportation-management/ http://www.apptricity.com/solutions/supply-chain-management/transportation.html
+redirect 301 /transportation-management http://www.apptricity.com/solutions/supply-chain-management/transportation.html
+redirect 301 /transportation/ http://www.apptricity.com/solutions/supply-chain-management/transportation.html
+redirect 301 /transportation http://www.apptricity.com/solutions/supply-chain-management/transportation.html
+
+
+
+# SOLUTIONS SPEND MANAGEMENT SECTION
+redirect 301 /spend/ http://www.apptricity.com/solutions/spend-management/
+redirect 301 /spend http://www.apptricity.com/solutions/spend-management/
+
+redirect 301 /expense/ http://www.apptricity.com/solutions/spend-management/expense.html
+redirect 301 /expense http://www.apptricity.com/solutions/spend-management/expense.html
+redirect 301 /solutions/expense/ http://www.apptricity.com/solutions/spend-management/expense.html
+
+redirect 301 /invoice/ http://www.apptricity.com/solutions/spend-management/invoice.html
+
+redirect 301 /solutions/financial-productivity/ http://www.apptricity.com/solutions/spend-management/index.html
+redirect 301 /expense-management/ http://www.apptricity.com/solutions/spend-management/expense.html
+redirect 301 /invoice-management/ http://www.apptricity.com/solutions/spend-management/invoice.html
+redirect 301 /solutions/e-procurement/requisition-and-order-management/ http://www.apptricity.com/solutions/spend-management/purchasing-requisition.html
+redirect 301 /time-and-attendance/ http://www.apptricity.com/solutions/spend-management/time-and-attendance.html
+redirect 301 /procure-to-pay/ http://www.apptricity.com/solutions/spend-management/procure-to-pay.html
+redirect 301 /buyer-connect/ http://www.apptricity.com/solutions/spend-management/buyer-connect.html
+redirect 301 /catalog-management/ http://www.apptricity.com/solutions/spend-management/catalog.html
+redirect 301 /contract-management/ http://www.apptricity.com/solutions/spend-management/contract.html
+redirect 301 /p-card-management/ http://www.apptricity.com/solutions/spend-management/purchasing-card.html
+redirect 301 /supplier-connect/ http://www.apptricity.com/solutions/spend-management/supplier-connect.html
+redirect 301 /why-us/soa-framework/ http://www.apptricity.com/solutions/soa-framework.html
+
+
+# GOVERNMENT SERVICES
+redirect 301 /defense-national-security/ http://www.apptricity.com/government-services/defense-national-security.html
+redirect 301 /federal-services/ http://www.apptricity.com/government-services/federal-services-solutions.html
+redirect 301 /state-local-services/ http://www.apptricity.com/government-services/state-local-solutions.html
+
+# PARTNER PROGRAMS
+redirect 301 /partners-and-alliances/distribution-partners/ http://www.apptricity.com/partner-programs/distribution-partners.html
+redirect 301 /partners-and-alliances/service-providers/ http://www.apptricity.com/partner-programs/service-providers.html
+redirect 301 /partners-and-alliances/solution-providers/ http://www.apptricity.com/partner-programs/solution-providers.html
+redirect 301 /partners-and-alliances/system-integrators/ http://www.apptricity.com/partner-programs/system-integrators.html
+redirect 301 /partners-and-alliances/technology-partners/ http://www.apptricity.com/partner-programs/technology-partners.html
+redirect 301 /partners-and-alliances/ http://www.apptricity.com/partner-programs/index.html
+
+# RESOURCES
+redirect 301 /analyst-research/ http://www.apptricity.com/resources/analyst-recognition.html
+redirect 301 /thought-leadership/white-papers/ http://www.apptricity.com/resources/white-papers.html
+redirect 301 /thought-leadership/ebooks/ http://www.apptricity.com/resources/ebooks.html
+redirect 301 /thought-leadership/newsletters/ http://www.apptricity.com/resources/newsletters.html
+redirect 301 /thought-leadership/apptricity-university/ http://www.apptricity.com/resources/apptricity-university.html
+
+# ABOUT SECTION
+redirect 301 /about-us/ http://www.apptricity.com/about/index.html
+redirect 301 /about-us/executive-team/ http://www.apptricity.com/about/executive-team.html
+redirect 301 /about-us/customers/ http://www.apptricity.com/about/customers.html
+
+redirect 301 /contact-apptricity/ http://www.apptricity.com/contact.html
+redirect 301 /thought-leadership/events/ http://www.apptricity.com/about/events.html
+redirect 301 /privacy/ http://www.apptricity.com/about/privacy-policy.html
+
+
+# PRESS RELEASE SECTION
+redirect 301 /astronaut-gene-cernan-appointed-to-apptricitys-advisory-board.html http://www.apptricity.com/about/press-releases/archives/
+
+
+# MISC
+redirect 301 /request-a-demo/ http://www.apptricity.com/demo.html
+redirect 301 /resources/support/ http://www.apptricity.com/resources/support.html

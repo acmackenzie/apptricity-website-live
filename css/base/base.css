@@ -1,0 +1,502 @@
+/*
+Frontend Developer: Mario S. Cisneros, P: 214.596.0601 Ext. 107
+Author URI: http://www.apptricity.com
+CSS: Global Base/Common Styles
+Project: Company Website
+Passed W3C: 5.1.2015
+Last Modified Date: 9.21.2015
+-------------------------------------------------------------- */
+
+html {
+    min-height: 100%;
+    margin-bottom: 1px;
+}
+
+body {
+   	color: #000;
+	font-size: 100%;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+	font-size: .9em;
+	line-height: 1.75;
+    margin: 0 auto;
+	overflow: hidden;
+    padding: 0;
+    position: relative;
+    max-width: 1150px;
+	text-align: left;
+    z-index: 10;
+}
+
+.wrapper {
+	background-color: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.casestudy {
+	align: center; 
+}
+	
+
+
+/* BREADCRUMB 
+-------------------------------------------------------------- */
+
+.breadcrumb-wrapper {
+	background-color: #00416a;
+	overflow: hidden;
+	/*margin-top: -.22em;*/
+	position: relative;
+	width: 100%;
+}
+
+.breadcrumb {
+	color: #fff;
+	font-size: .8em;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1150px;
+}
+
+.breadcrumb ul {
+	list-style: none;
+ 	margin: 1.25em 0;
+ 	padding: 0;
+ 	text-align: left;
+}
+
+.breadcrumb ul li {
+	display: inline;
+}
+
+.breadcrumb a:link, .breadcrumb a:active, .breadcrumb a:visited {
+	color: #ff9d6b;
+	padding: 0 4px;
+ 	text-decoration: none;
+ }
+
+.breadcrumb a:hover {
+	color: #fff;
+ 	text-decoration: none;
+}
+
+
+
+
+
+/* MAIN CONTENT AREAS
+-------------------------------------------------------------- */
+
+/* This rule is used in a single column-layout without sidebars
+   (i.e. demo.html, sitemap.html, support.html)
+-------------------------------------------------------------- */ 
+.single-column {
+    overflow: hidden;
+	padding: 3em 2%;
+    position: relative;
+    text-align: left;
+    width: auto;
+}
+
+
+
+/* Used in two-column layouts with a sidenav or sidebar
+------------------------------------------------------- */
+.content {
+    float: left;
+	margin-top: 2.75em;
+    padding: 0 0 2em 0;
+    position: relative;
+    text-align: left;
+    width: 65%;
+}
+
+.content p {
+    margin: 1em 0;
+    padding: 0;
+}
+
+.content ul {
+    margin: .5em 0 0 1em;
+    padding: .5em 0 0 1em;
+}
+
+.content ul li {
+    line-height: 1.5;
+    list-style: disc;
+    padding-bottom: 5px;
+}
+
+.content ol li {
+    margin-bottom: 1em;
+}
+
+.content dt,
+.middle-column dt {
+    background-color: #EEE;
+    font-size: 1.25em;
+	font-weight: bold;
+    margin: 20px 0 -5px;
+    padding: .25em 0 .25em 1%;
+}
+
+.content dd,
+.middle-column dd {
+    margin: 1em 0 2em 1%;
+    padding: 0;
+}
+
+/*
+.content a,
+.single-column a,
+.middle-column a {
+   color: #00a7e1;
+   text-decoration: none;
+}
+*/
+
+.content a,
+.single-column a,
+.middle-column a {
+   color: #00416a;
+   text-decoration: none;
+}
+
+.content a:hover,
+.middle-column a:hover {
+   color: #3cf;
+   text-decoration: underline;
+}
+
+.leftcolumn {
+    float: left;
+	padding: 0 0 3em;
+	position: relative;
+    width: 75%;
+}
+
+
+
+/* Used in three-column-layouts
+ * Majority of pages built using this layout
+-------------------------------------------- */ 
+.middle-column {
+    border-right: 1px solid #eee;
+	border-left: 1px solid #eee;
+	float: left;
+	margin-left: 20%;
+    padding: 2.25em 1% 3em;
+    position: relative;
+    text-align: left;
+    width: 56%;
+}
+
+
+/* This rule allows the sidenav to be positioned in the code below the main content 
+   in a three column layout (i.e. about section), which helps SEO.
+ 
+ * However, it renders on the left side in a desktop, or iPad, but displays under the main content on smaller device viewports.
+    
+ * The class is added to the <div #container> tag at the top of the page directly under the <body> tag
+---------------------------------------------------------------------------------------------------------------------------- */
+.three-column-layout .sidenav {margin-left: -78%;}
+
+
+
+/* These 3-rules are used to embed two-columns in the content
+   (i.e. europe/index.html)
+------------------------------------------------------------- */ 
+.two-column {
+    margin: 3em 0 0;
+	overflow: hidden;
+	position: relative;
+    width: 100%;
+}
+
+.left-column {
+    float: left;
+    position: relative;
+    width: 48%
+}
+
+.right-column {
+    float: right;
+	position: relative;
+    width: 48%;
+}
+
+
+
+
+
+/* HEADINGS
+-------------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+   	letter-spacing: .02em;
+	line-height: normal;
+   	margin: 0;
+	padding: 0;
+}
+
+.middle-column h1, 
+.content h1, 
+.single-column h1 {
+	color: #00416a;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 1em;
+	padding-bottom: .25em;
+}
+
+.middle-column h1 + p {margin-top: 0;}
+
+.middle-column h2,
+.leftcolumn h2 {margin-top: 1.5em;}
+
+.content h2,
+.single-column h2 {
+	color: #00416a;
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: 1.5em 0 -.25em;
+}
+
+.content h3,
+.single-column h3 {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0;
+}
+
+.two-column h2 {margin: 0 0 1em;}
+
+#usability .content h2,
+.apptricity-university h2 {border-bottom: none;}
+
+
+
+
+
+/* CLASS SELECTORS
+---------------------------------------------------------------------------------------- */
+
+.big-type {
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.button {
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5) inset;
+	border: 1px solid #5F5F5F;
+	background: linear-gradient(to bottom, #7EC8F4 0px, #00a7e1 100%) repeat scroll 0% 0% transparent;
+	border-radius: 4px;
+	color: #FFF !important;
+    cursor: pointer;
+    display: inline-block;
+	font: bold 1em/normal 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	max-width: 100%;
+	margin-top: 1em;
+    padding: .5em 1.2em;
+	text-align: center;
+	text-shadow: 0px -1px 0px #3574E3;
+	text-decoration: none !important;
+    transition: opacity 0.15s linear 0s;
+	vertical-align: middle;
+	white-space: normal;
+}
+
+
+/* Clear Floats 
+--------------------*/
+
+.clear {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  clear: both;
+  height: 1px;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.disclaimer {
+    font-size: .6em;
+    font-style: italic;
+}
+
+.img-left {
+    float: left;
+    margin: 1em 1.5em 1.1em 0;
+}
+
+.img-right {
+    border: 1px solid #333;
+    float: right;
+    margin: .5em 0 0 1.5em;
+    padding: 4px;
+    position: relative;
+}
+
+.intranet-trends li {margin-bottom: 1em;}
+
+.lowercase {text-transform: lowercase;}
+
+.new-window-icon {padding-left: 2px;}
+
+.no-border {
+	border: none;
+	padding: 0;
+}
+
+
+/* ----- Pagenation ----- */
+.pagenation {
+	background-color: #eee;
+	margin-top: 3em;
+	padding: 1em 0;
+}
+
+.pagenation h3 {
+	display: inline;
+}
+
+.pagenation ul {
+	padding: 0;
+	margin: 0 0 0 1em;
+}
+
+.pagenation li {
+	border: 1px solid #3cf;
+	display: inline;
+	padding: .5em;
+	margin: 0 .25em;
+}
+
+.pagenation li.no-border {border: none;}
+
+
+/* Government Section
+------------------------------ */
+.product-icons {
+	margin: 5% 0;
+}
+
+.product-icons li {
+	display: inline;
+	list-style-type: none;
+	margin-left: 5%;
+	padding: 0;
+	text-align: center;
+}
+
+.pull-quote {
+  background-color: #EEE;
+  background-image: -webkit-gradient(to top, #EEE -26%, #000 94%);
+  background-image: -moz-linear-gradient(to top, #EEE -26%, #000 94%);
+  background-image: -o-linear-gradient(to top, #EEE -26%, #000 94%);
+  background-image: -ms-linear-gradient(to top, #EEE -26%, #000 94%);
+  background-image: linear-gradient(to top, #EEE -26%, #000 94%);
+  border-bottom: 1px solid #3cf;
+  border-top: 5px solid #3cf;
+  color: #FFF;
+  float: right;
+  font-size: 1em;
+  margin: 10px 15px 5px 20px;
+  padding: 10px;
+  text-align: left;
+  width: 35%;
+}
+
+.references {
+	background-color: #EEE;
+	border-bottom: 1px solid #DDD;
+	color: #222;
+	margin-top: 3em;
+	margin-bottom: .5em;
+	padding: .5em .25em .5em .75em;
+	text-transform: uppercase;
+}
+
+.share {margin-top: 3em;}
+
+
+
+
+
+ /* BLOCKQUOTES: CONTROLS CLIENT QUOTES ON SIDEBAR
+---------------------------------------------------------------------------------------- */
+
+blockquote {
+	font-size: .9em;
+	font-style: italic;
+	margin: 0;
+	padding: 0;
+}
+
+.cite {
+	font-size: .85em;
+	font-weight: bold;
+	line-height: 1.4;
+	margin-top: 1em;
+}
+
+.single-quote {
+	font-weight: bold; 
+	margin-top: .5em;
+}
+
+
+
+
+
+ /* TYPE SELECTORS
+---------------------------------------------------------------------------------------- */
+
+code {color: #F00;}
+
+hr {
+	border-color: #E6E6E6;
+	margin: 3em 0;
+}
+
+main p:first-child {
+    color: #333;
+    font-size: 1.35em;
+    line-height: 1.5;
+	margin-top: 0;
+}
+
+table {
+    border-collapse: collapse; 
+    table-layout: fixed; 
+    width: 100%;
+}
+
+table td {
+    /*border: solid 1px #fab;*/
+	padding: 0 1.5em;
+    word-wrap: break-word;
+}

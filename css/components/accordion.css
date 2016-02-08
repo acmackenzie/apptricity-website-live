@@ -1,0 +1,50 @@
+/*
+Frontend Developer: Mario S. Cisneros, P: 214.596.0601 Ext. 107
+Author URI: http://www.apptricity.com
+CSS: Accordion Styles
+Project: Company Website
+Passed W3C: 0.0.2015
+Passed CSS Lint: 0.0.2015
+Last Modified Date: 3.5.2015
+-------------------------------------------------------------- */
+
+.accordion {
+	margin-top: .5em;
+ 	width: 100%;
+}
+ 
+.accordion blockquote {margin: 0;}
+ 
+.accordion img {margin-left: .15em;}
+
+.accordion dl {margin: 1.5em 0;}
+
+.accordion dt {
+    background: #DDD url(/images/accordion.gif) no-repeat right -55px;
+	color: #000;
+	cursor: pointer;
+	font: 1.2em georgia, serif;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0.5em 0 .5em .5em;
+ }
+
+.accordion dt:hover {
+	background-color: #3cf;
+	color: #FFF !important;
+}
+
+.accordion dt.active {background-position: right 1px;}
+
+.accordion dd {
+	background-color: #fff;
+	border-right: 1px solid #999; 
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	margin: 0;
+	padding: .5em 1em;
+}
+
+.accordion ol li {
+	margin-bottom: 0;
+}
